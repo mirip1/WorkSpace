@@ -1,0 +1,5 @@
+[2024-09-27 10:14] metodo utilizado: ficheroCSVToBinario; fichero entrada: hola.csv; fichero salida : hola.dat
+[2024-09-27 10:14] metodo utilizado: ficheroBinarioToCSV; fichero entrada: Hoa.dat; fichero salida : Hoa.csv
+[2024-09-27 10:14] metodo utilizado: ordenarArchivoCSV; fichero entrada: hola.csv; fichero salida : hola_ord.csv
+[2024-09-27 10:14] metodo utilizado: ordenarArchivoBinario; fichero entrada: Hoa.dat; fichero salida : Hoa_ord.dat
+[2024-09-27 10:14] metodo utilizado: ficheroBinarioToCSVOrdenado; fichero entrada: Hoa.dat; fichero salida : Hoa_ord.csv

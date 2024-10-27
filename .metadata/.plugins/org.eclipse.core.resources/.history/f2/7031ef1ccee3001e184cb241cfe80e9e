@@ -1,0 +1,71 @@
+package prog.unidad05.gestionclientes.gui;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.LayoutStyle.ComponentPlacement;
+
+public class GestionClientesSwingApp {
+
+  private JFrame frame;
+
+  /**
+   * Launch the application.
+   */
+  public static void main(String[] args) {
+    EventQueue.invokeLater(new Runnable() {
+      public void run() {
+        try {
+          GestionClientesSwingApp window = new GestionClientesSwingApp();
+          window.frame.setVisible(true);
+        } catch (Exception e) {
+          e.printStackTrace();
+        }
+      }
+    });
+  }
+
+  /**
+   * Create the application.
+   */
+  public GestionClientesSwingApp() {
+    initialize();
+  }
+
+  /**
+   * Initialize the contents of the frame.
+   */
+  private void initialize() {
+    frame = new JFrame();
+    frame.setBounds(100, 100, 533, 306);
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    
+    JLabel lblClientes = new JLabel("Clientes");
+    
+    JScrollPane scrollPane = new JScrollPane();
+    GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
+    groupLayout.setHorizontalGroup(
+      groupLayout.createParallelGroup(Alignment.LEADING)
+        .addGroup(groupLayout.createSequentialGroup()
+          .addContainerGap()
+          .addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+            .addComponent(scrollPane, GroupLayout.DEFAULT_SIZE, 414, Short.MAX_VALUE)
+            .addComponent(lblClientes))
+          .addContainerGap())
+    );
+    groupLayout.setVerticalGroup(
+      groupLayout.createParallelGroup(Alignment.LEADING)
+        .addGroup(groupLayout.createSequentialGroup()
+          .addContainerGap()
+          .addComponent(lblClientes)
+          .addPreferredGap(ComponentPlacement.RELATED)
+          .addComponent(scrollPane, GroupLayout.PREFERRED_SIZE, 108, GroupLayout.PREFERRED_SIZE)
+          .addContainerGap(122, Short.MAX_VALUE))
+    );
+    frame.getContentPane().setLayout(groupLayout);
+  }
+}

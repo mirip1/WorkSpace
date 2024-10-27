@@ -1,0 +1,15 @@
+
+public class HolaMundoApp {
+
+	public static void main(String[] args) {
+		System.out.println("Hola Mundo");
+		int cont;
+		cont=10;
+		while (cont!=0) {
+			System.out.println("Hola Mundo "+cont);
+			cont=cont-1;
+		}
+
+	}
+
+}

@@ -1,0 +1,35 @@
+package selenium.wiki;
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Selenium {
+
+  public static void main(String[] args) {
+    WebDriver driver = new ChromeDriver();
+    
+    try {
+      driver.get("https://www.wikipedia.org/");
+
+      driver.findElement(By.id("searchInput")).sendKeys("Java");
+      String tituloWeb = driver.findElement(By.xpath("//*[@id=\"firstHeading\"]/span")).getText();
+      System.out.println(tituloWeb);
+
+      
+    }
+    catch (Exception e) {
+      System.out.println(e.getMessage());
+      System.out.println("HA FALLADO");
+    }
+    finally{
+      driver.quit();
+    }
+    
+    
+    
+  }
+
+}

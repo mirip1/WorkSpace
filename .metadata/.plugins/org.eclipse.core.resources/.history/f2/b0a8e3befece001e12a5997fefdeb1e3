@@ -1,0 +1,62 @@
+package selenium.wiki;
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Selenium {
+
+  public static void main(String[] args) {
+    WebDriver driver = new ChromeDriver();
+    
+    //Ejercicio 1
+    try {
+      driver.get("https://es.wikipedia.org/");
+      driver.findElement(By.id("searchInput")).sendKeys("Java\n");
+      
+      Thread.sleep(2000);   
+      String tituloWeb = driver.findElement(By.xpath("//*[@id=\"firstHeading\"]/span")).getText();
+      System.out.println(tituloWeb);
+
+      
+    }
+    catch (Exception e) {
+      System.out.println(e.getMessage());
+      System.out.println("HA FALLADO");
+    }
+    finally{
+      
+    }
+    
+    
+    //Ejercicio 2
+    try {
+      driver.get("https://www.odoo.com/es_ES");
+      driver.findElement(By.xpath("//*[@id=\"top_menu\"]/ul[1]/li[4]/a")).click();       
+      Thread.sleep(1000);   
+      driver.findElement(By.xpath("//*[@id=\"wrapwrap\"]/main/div[1]/div[2]/div/div[1]/div[1]/div[1]/label[1]/div")).click();       
+      driver.findElement(By.xpath("//*[@id=\"wrapwrap\"]/main/div[1]/div[2]/div/div[1]/div[2]/div/div/button  ")).click();       
+      driver.findElement(By.id("username")).sendKeys("Miguel");
+      driver.findElement(By.id("username")).sendKeys("mivelfer5@gmail.com");
+      driver.findElement(By.id("company-name")).sendKeys("miCompañia");
+      driver.findElement(By.id("phone")).sendKeys("644893245");
+      Thread.sleep(1000);   
+     
+      System.out.println("Funciona");
+
+
+    }
+    catch (Exception e) {
+      System.out.println(e.getMessage());
+      System.out.println("HA FALLADO");
+    }
+    finally{
+      driver.quit();
+    }
+    
+    
+  }
+
+}

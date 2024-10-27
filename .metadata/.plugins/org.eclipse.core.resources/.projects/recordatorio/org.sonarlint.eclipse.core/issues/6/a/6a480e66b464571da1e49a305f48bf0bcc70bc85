@@ -1,0 +1,9 @@
+
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 0b39709eae3d8340a7a24189a18fe67dh
+g
+java:S1481	",Remove this unused "fichero" local variable.8¦¯ƒùŸ2b 731ab7cd12b498fc9b4def52ef70d543h
+f
+java:S1481
+"+Remove this unused "lector" local variable.8¦¯ƒùŸ2b dd381a050f1987e7b5c7b73296fd49a5h
+p
+java:S1481"5Remove this unused "lectorPotentorro" local variable.8¦¯ƒùŸ2b 6de226f9cf258aab8788ad3a34f50c92h

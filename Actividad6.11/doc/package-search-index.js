@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"prog.ud06.actividad611.coleccion"},{"l":"prog.ud06.actividad611.coleccion.diccionario"},{"l":"prog.ud06.actividad611.main"},{"l":"prog.ud06.actividad611.proveedores"},{"l":"prog.ud06.actividad611.test"}];updateSearchResults();

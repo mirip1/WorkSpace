@@ -1,0 +1,17 @@
+
+q
+java:S1141Ü"5Extract this nested try block into a separate method.8ÿ¢Ô“°2b 080f651e3fcca17df3a47c2cecfcb880h
+^
+java:S2189Ñ""Add an end condition to this loop.8ÿ¢Ô“°2b 8573d36b5854052e4b6b09f4ba805462h
+v	java:S125"<This block of commented-out lines of code should be removed.8 ”Óˆ†2b 4f7560253f0ac0943d10c4c5adac5776h
+f	java:S106à"+Replace this use of System.out by a logger.8Ã©Œ”°2b bb1c3f2ea781263d3a2bb92b06a2061fh
+â	java:S100Ç"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ÿ¢Ô“°2b 14f2812aada1543adeb56a477011c6c3h
+v	java:S125,"<This block of commented-out lines of code should be removed.8™Ÿ¯˜†2b 4e7a712c56dd8ff35ad9476e7fc23626h
+É
+java:S53612"HReplace this call to "replaceAll()" by a call to the "replace()" method.8»ôÅœ†2b 9496ad7ef302f6365cbee6b6b6f4d2b9h
+e	java:S106o"+Replace this use of System.out by a logger.8˝Âã˜†2b bb1c3f2ea781263d3a2bb92b06a2061fh
+f
+java:S1168="+Return an empty collection instead of null.8äû¯ˆ†2b 37a6259cc0c1dae299a7866489dff0bdh
+e	java:S106t"+Replace this use of System.out by a logger.8ÿ¢Ô“°2b bb1c3f2ea781263d3a2bb92b06a2061fh
+f	java:S106â"+Replace this use of System.out by a logger.8˙ÑÁŒ†2b bb1c3f2ea781263d3a2bb92b06a2061fh
+à	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8íŸÎˆ†2b 3a7ee71c543831ef25e50effc52ba20bh

@@ -1,0 +1,14 @@
+
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 706353a869953cd6c5cc7c6cb16491d7h
+{
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.b e4d9bfcb0b6b8d1341bf651561b028a4h
+j
+java:S6437"6Revoke and change this password, as it is compromised.b a6dc6f085ba49b5c22cdc1c56b6d6621h
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.err by a logger.b af259b5629da223c99d853ddc8045589h
+o	java:S125"<This block of commented-out lines of code should be removed.b 2dc1665d31b37f9aa7408939a0365027h
+P
+java:S1116"Remove this empty statement.b 9eecb7db59d16c80417c72d1e1f4fbf1h
+o	java:S125!"<This block of commented-out lines of code should be removed.b 986e6271fd8268c5a6a8979e52a8242ah
+f
+java:S1135%"2Complete the task associated to this TODO comment.b 7070b9ee421ce52b0a94300bdc011420h

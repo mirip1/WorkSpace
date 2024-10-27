@@ -1,0 +1,180 @@
+package inferfaztgraficamain;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import java.awt.BorderLayout;
+import java.awt.CardLayout;
+import java.awt.GridLayout;
+import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextField;
+import javax.swing.JScrollBar;
+
+public class MainSwing extends JFrame {
+
+  private static final long serialVersionUID = 1L;
+  private JPanel contentPane;
+  private JTextField textId;
+  private JTextField textTitulo;
+  private JTextField textAnyo;
+  private JTextField textIdioma;
+  private JTextField textIdiomaOri;
+  private JTextField textDuracion;
+  private JTextField textRatio;
+  private JTextField textDuracionReal;
+  private JTextField textPuntuacion;
+  private JTextField textUltimaActualizacion;
+  private JTextField textDescripcion;
+  private JLabel lblIRatio;
+
+  /**
+   * Launch the application.
+   */
+  public static void main(String[] args) {
+    EventQueue.invokeLater(new Runnable() {
+      public void run() {
+        try {
+          MainSwing frame = new MainSwing();
+          frame.setVisible(true);
+        } catch (Exception e) {
+          e.printStackTrace();
+        }
+      }
+    });
+  }
+
+  /**
+   * Create the frame.
+   */
+  public MainSwing() {
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    setBounds(100, 100, 807, 671);
+    contentPane = new JPanel();
+    contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+
+    setContentPane(contentPane);
+    contentPane.setLayout(null);
+    
+    textId = new JTextField();
+    textId.setEnabled(false);
+    textId.setBounds(139, 67, 216, 20);
+    contentPane.add(textId);
+    textId.setColumns(10);
+    
+    textTitulo = new JTextField();
+    textTitulo.setEnabled(false);
+    textTitulo.setBounds(139, 113, 216, 20);
+    contentPane.add(textTitulo);
+    textTitulo.setColumns(10);
+    
+    textAnyo = new JTextField();
+    textAnyo.setEnabled(false);
+    textAnyo.setColumns(10);
+    textAnyo.setBounds(139, 232, 216, 20);
+    contentPane.add(textAnyo);
+    
+    textIdioma = new JTextField();
+    textIdioma.setEnabled(false);
+    textIdioma.setColumns(10);
+    textIdioma.setBounds(139, 273, 216, 20);
+    contentPane.add(textIdioma);
+    
+    textIdiomaOri = new JTextField();
+    textIdiomaOri.setEnabled(false);
+    textIdiomaOri.setColumns(10);
+    textIdiomaOri.setBounds(139, 318, 216, 20);
+    contentPane.add(textIdiomaOri);
+    
+    textDuracion = new JTextField();
+    textDuracion.setEnabled(false);
+    textDuracion.setColumns(10);
+    textDuracion.setBounds(139, 361, 216, 20);
+    contentPane.add(textDuracion);
+    
+    textRatio = new JTextField();
+    textRatio.setEnabled(false);
+    textRatio.setColumns(10);
+    textRatio.setBounds(139, 406, 216, 20);
+    contentPane.add(textRatio);
+    
+    textDuracionReal = new JTextField();
+    textDuracionReal.setEnabled(false);
+    textDuracionReal.setColumns(10);
+    textDuracionReal.setBounds(139, 453, 216, 20);
+    contentPane.add(textDuracionReal);
+    
+    textPuntuacion = new JTextField();
+    textPuntuacion.setEnabled(false);
+    textPuntuacion.setColumns(10);
+    textPuntuacion.setBounds(139, 499, 216, 20);
+    contentPane.add(textPuntuacion);
+    
+    textUltimaActualizacion = new JTextField();
+    textUltimaActualizacion.setEnabled(false);
+    textUltimaActualizacion.setColumns(10);
+    textUltimaActualizacion.setBounds(139, 547, 216, 20);
+    contentPane.add(textUltimaActualizacion);
+    
+    JLabel lblId = new JLabel("ID Pelicula");
+    lblId.setBounds(36, 67, 61, 14);
+    contentPane.add(lblId);
+    
+    JLabel lblTitulo = new JLabel("Titulo");
+    lblTitulo.setBounds(36, 113, 46, 14);
+    contentPane.add(lblTitulo);
+    
+    JLabel lblDescripcion = new JLabel("Descripcion");
+    lblDescripcion.setBounds(36, 155, 72, 14);
+    contentPane.add(lblDescripcion);
+    
+    JScrollPane scrollPane = new JScrollPane();
+    scrollPane.setBounds(139, 158, 216, 51);
+    contentPane.add(scrollPane);
+    
+    textDescripcion = new JTextField();
+    textDescripcion.setEnabled(false);
+    textDescripcion.setColumns(10);
+    scrollPane.setViewportView(textDescripcion);
+    
+    JLabel lblAnyo = new JLabel("Año Salida");
+    lblAnyo.setBounds(36, 235, 72, 14);
+    contentPane.add(lblAnyo);
+    
+    JLabel lblIdioma = new JLabel("Idioma");
+    lblIdioma.setBounds(36, 276, 72, 14);
+    contentPane.add(lblIdioma);
+    
+    JLabel lblIdiomaOri = new JLabel("Idioma Original");
+    lblIdiomaOri.setBounds(36, 321, 72, 14);
+    contentPane.add(lblIdiomaOri);
+    
+    JLabel lblIDuracionRent = new JLabel("Duracion Rental");
+    lblIDuracionRent.setBounds(36, 364, 92, 14);
+    contentPane.add(lblIDuracionRent);
+    
+    lblIRatio = new JLabel("Ratio");
+    lblIRatio.setBounds(36, 409, 72, 14);
+    contentPane.add(lblIRatio);
+    
+    JLabel lblDuracionReal = new JLabel("Duracion");
+    lblDuracionReal.setBounds(36, 456, 72, 14);
+    contentPane.add(lblDuracionReal);
+    
+    JLabel lblPuntuacion = new JLabel("Puntuacion");
+    lblPuntuacion.setBounds(36, 502, 72, 14);
+    contentPane.add(lblPuntuacion);
+    
+    JLabel lblActualizacion = new JLabel("Ultima Actu");
+    lblActualizacion.setBounds(36, 550, 72, 14);
+    contentPane.add(lblActualizacion);
+  }
+  
+  private void cambiarTexto(Int id) {
+    
+  }
+  
+  
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Tarea2/hola.txt&apos; to &apos;hola.dat&apos;" description="Rename resource &apos;hola.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="hola.txt" name="hola.dat" stamp="1727339846635" updateReferences="true"/>&#x0A;<refactoring accessors="true" comment="Delete element from project &apos;Tarea2&apos;&#x0D;&#x0A;- Original project: &apos;Tarea2&apos;&#x0D;&#x0A;- Original element: &apos;log_csv.txt&apos;" description="Delete element" element1="log_csv.txt" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1727424856038" subPackages="false" version="1.0"/>
+</session>

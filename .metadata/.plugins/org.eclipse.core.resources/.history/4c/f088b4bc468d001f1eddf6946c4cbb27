@@ -1,0 +1,94 @@
+package views;
+
+import java.awt.Color;
+import java.awt.Font;
+
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.SwingConstants;
+
+import utils.ManejoCliente;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class BajaClientes extends JPanel {
+
+  private static final long serialVersionUID = 1L;
+  private JTextField textField;
+  private ManejoCliente clientes;
+
+  /**
+   * Create the panel.
+   */
+  public BajaClientes(ManejoCliente clientes) {
+    
+    this.clientes = clientes;
+    
+    JButton btnEliminar = new JButton("ELIMINAR");
+    btnEliminar.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+        eliminarCliente();
+      }
+
+    
+    });
+    btnEliminar.setFont(new Font("Verdana Pro Black", Font.BOLD, 18));
+    btnEliminar.setBackground(Color.WHITE);
+    
+    textField = new JTextField();
+    textField.setColumns(10);
+    
+    JLabel lblEmail = new JLabel("Email del cliente:");
+    lblEmail.setFont(new Font("JetBrains Mono Medium", Font.BOLD, 13));
+    
+    JLabel lblBajaClientes = new JLabel("BAJA CLIENTES");
+    lblBajaClientes.setHorizontalAlignment(SwingConstants.CENTER);
+    lblBajaClientes.setFont(new Font("Segoe UI Black", Font.BOLD, 26));
+    GroupLayout groupLayout = new GroupLayout(this);
+    groupLayout.setHorizontalGroup(
+      groupLayout.createParallelGroup(Alignment.TRAILING)
+        .addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
+          .addContainerGap(222, Short.MAX_VALUE)
+          .addComponent(btnEliminar, GroupLayout.PREFERRED_SIZE, 169, GroupLayout.PREFERRED_SIZE)
+          .addGap(270))
+        .addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
+          .addContainerGap(142, Short.MAX_VALUE)
+          .addComponent(lblEmail, GroupLayout.PREFERRED_SIZE, 180, GroupLayout.PREFERRED_SIZE)
+          .addGap(10)
+          .addComponent(textField, GroupLayout.PREFERRED_SIZE, 139, GroupLayout.PREFERRED_SIZE)
+          .addGap(190))
+        .addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
+          .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+          .addComponent(lblBajaClientes, GroupLayout.PREFERRED_SIZE, 609, GroupLayout.PREFERRED_SIZE)
+          .addGap(42))
+    );
+    groupLayout.setVerticalGroup(
+      groupLayout.createParallelGroup(Alignment.TRAILING)
+        .addGroup(groupLayout.createSequentialGroup()
+          .addContainerGap()
+          .addComponent(lblBajaClientes, GroupLayout.PREFERRED_SIZE, 42, GroupLayout.PREFERRED_SIZE)
+          .addPreferredGap(ComponentPlacement.RELATED, 80, Short.MAX_VALUE)
+          .addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+            .addComponent(textField, GroupLayout.PREFERRED_SIZE, 24, GroupLayout.PREFERRED_SIZE)
+            .addGroup(groupLayout.createSequentialGroup()
+              .addGap(1)
+              .addComponent(lblEmail, GroupLayout.PREFERRED_SIZE, 18, GroupLayout.PREFERRED_SIZE)))
+          .addGap(69)
+          .addComponent(btnEliminar, GroupLayout.PREFERRED_SIZE, 31, GroupLayout.PREFERRED_SIZE)
+          .addGap(104))
+    );
+    setLayout(groupLayout);
+
+  }
+  
+  private void eliminarCliente() {
+    
+    
+    
+  }
+}

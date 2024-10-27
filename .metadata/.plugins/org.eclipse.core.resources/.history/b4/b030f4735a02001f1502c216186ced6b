@@ -1,0 +1,21 @@
+package practica1;
+
+public class Trabajador {
+  private String tipo;
+  
+
+  public String trab() {
+    
+    
+    return null;
+  }
+  
+  public float getNom() {
+    return 0;
+  }
+  
+  public int masTrab() {
+    return 0;
+  }
+
+}

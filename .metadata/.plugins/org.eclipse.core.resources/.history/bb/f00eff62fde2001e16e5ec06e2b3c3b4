@@ -1,0 +1,83 @@
+package prog.unidad05.gestionclientes.impl;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import prog.unidad05.gestionclientes.core.Cliente;
+import prog.unidad05.gestionclientes.core.ProveedorAlmacenamientoClientes;
+import prog.unidad05.gestionclientes.core.ProveedorAlmacenamientoClientesException;
+
+/**
+ * Proveedor de almacenamiento de clientes que almacena los datos de los
+ * clientes en un fichero en disco. Si el fichero no existe se crea la primera
+ * vez que se guarde y devuelve una colección vacía de clientes al leer.
+ */
+public class ProveedorAlmacenamientoClientesFichero implements ProveedorAlmacenamientoClientes {
+
+  // Ruta del fichero a emplear
+  private String rutaFichero;
+
+  /**
+   * Constructor con ruta
+   * 
+   * @param rutaFichero Ruta al fichero a emplear para leer y almacenar los
+   *                    clientes
+   * @throws NullPointerException Si la ruta es nula
+   */
+  public ProveedorAlmacenamientoClientesFichero(String rutaFichero) {
+    this.rutaFichero = rutaFichero;
+
+  }
+
+  /**
+   * Obtiene todos los clientes almacenados
+   * 
+   * @return Array de Cliente con todos los clientes. Puede estar vacío si aún no
+   *         hay clientes
+   */
+  public Cliente[] getAll() throws ProveedorAlmacenamientoClientesException {
+    try (BufferedReader flujoTexto2 = new BufferedReader(new FileReader("rutaFichero"))) {
+
+      String linea = null;
+      do {
+        linea = flujoTexto2.readLine();
+        
+        
+      } while (linea != null);
+
+    } catch (FileNotFoundException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+      System.out.println("error");
+
+    } catch (IOException e) {
+      e.printStackTrace();
+      System.out.println("error");
+
+    }
+  }
+
+  /**
+   * Almacena todos los clientes en almacenamiento secundario Los clientes
+   * previamente existentes se sustituyen por los que se proporcionan aqui
+   * 
+   * @param clientes Clientes a almacenar. Puede ser vacío pero no null
+   */
+  public void saveAll(Cliente[] clientes) throws ProveedorAlmacenamientoClientesException {
+    try (PrintWriter flujoSalida = new PrintWriter(new FileWriter(rutaFichero))) {
+
+      flujoSalida.printf("%d%n", clientes);
+
+    } catch (IOException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+      System.out.print("ERROR");
+    }
+
+  }
+
+}

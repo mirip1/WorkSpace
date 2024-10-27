@@ -1,0 +1,23 @@
+
+\
+java:S1604"(Make this anonymous inner class a lambdab ea52882b4555d68253c21906fed1a7f9h
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b aba1dd1fe58edf72e3b7ecbc3cd0ffbbh
+}
+java:S3252/"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+k
+java:S1128"0Remove this unused import 'java.awt.GridLayout'.8ϊεω2b fd75d37effb192fc2452f6bb9e11902bh
+‹	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8‚„κω2b 1007b4428d8b63cf74dcd7f5fbc674c6h
+‹	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8‚„κω2b 544de71e35cafdea2a08d3bbafdf8515h
+|
+java:S1128"ARemove this unused import 'com.jgoodies.forms.layout.FormLayout'.8‚„κω2b fa25646652b2b55a7ac2e7afbc01de10h
+|
+java:S1128"ARemove this unused import 'com.jgoodies.forms.layout.ColumnSpec'.8‚„κω2b 5ba34542ecdc8b12e4c6fc913d7ebd59h
+y
+java:S1128">Remove this unused import 'com.jgoodies.forms.layout.RowSpec'.8‚„κω2b 22624f77b76ff6e061fc0d6764a1660fh
+{
+java:S1128"@Remove this unused import 'com.jgoodies.forms.layout.FormSpecs'.8‚„κω2b 52c37f1a7f9593185bc4db2de703aecfh
+‹	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ƒψςω2b c38af5df3bbfbb21cdcad08998be35f8h
+‹	java:S117Y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8•ώω2b da0dd656f7f27f9ef2cd17f9b913ad98h
+‹	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8•¶ƒϊ2b 69652a1061a54c47c06373cccbe8be25h
+o
+java:S1128"4Remove this unused import 'javax.swing.JEditorPane'.8•Αϊ2b d1a386b56910a6341c120a8f86636d2bh

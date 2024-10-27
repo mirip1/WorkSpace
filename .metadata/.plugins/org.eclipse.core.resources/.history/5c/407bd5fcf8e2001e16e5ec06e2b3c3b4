@@ -1,0 +1,21 @@
+package prog.unidad05.gestionclientes.impl;
+
+import prog.unidad05.gestionclientes.core.Cliente;
+import prog.unidad05.gestionclientes.core.ProveedorAlmacenamientoClientes;
+import prog.unidad05.gestionclientes.core.ProveedorAlmacenamientoClientesException;
+
+public class ProveedorAlmacenamientoClientesFichero implements ProveedorAlmacenamientoClientes {
+
+  @Override
+  public Cliente[] getAll() throws ProveedorAlmacenamientoClientesException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+  @Override
+  public void saveAll(Cliente[] clientes) throws ProveedorAlmacenamientoClientesException {
+    // TODO Auto-generated method stub
+
+  }
+
+}

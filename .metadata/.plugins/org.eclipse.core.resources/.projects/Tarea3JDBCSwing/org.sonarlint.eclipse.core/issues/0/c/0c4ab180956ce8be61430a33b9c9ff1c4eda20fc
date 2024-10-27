@@ -1,0 +1,33 @@
+
+_
+java:S1168n"+Return an empty collection instead of null.b 37a6259cc0c1dae299a7866489dff0bdh
+Ç
+java:S20950"GUse try-with-resources or close this "Statement" in a "finally" clause.8Å‰„è¶2b ba2e6ba8d305e7a59866d28630b665d2h
+f	java:S106û"+Replace this use of System.err by a logger.8ì‰€◊¶2b af259b5629da223c99d853ddc8045589h
+f
+java:S1168K"+Return an empty collection instead of null.8Æ•Æç¶2b 37a6259cc0c1dae299a7866489dff0bdh
+f	java:S106Ç"+Replace this use of System.out by a logger.8õªçå¶2b bb1c3f2ea781263d3a2bb92b06a2061fh
+Ç
+java:S2095["GUse try-with-resources or close this "Statement" in a "finally" clause.8⁄¨üè¶2b ba2e6ba8d305e7a59866d28630b665d2h
+e	java:S106d"+Replace this use of System.out by a logger.8ù…Íã¶2b bb1c3f2ea781263d3a2bb92b06a2061fh
+q
+java:S6437Z"6Revoke and change this password, as it is compromised.8ù…Íã¶2b 319f4d26e3c536b5dd871bb2c52e3178h
+f
+java:S1135"2Complete the task associated to this TODO comment.b e9bbedc89a561c7c576f86afcf8a541eh
+e	java:S106C"+Replace this use of System.out by a logger.8Ê†¸é¶2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106h"+Replace this use of System.out by a logger.8Ùçéå¶2b bb1c3f2ea781263d3a2bb92b06a2061fh
+r
+java:S6437ä"6Revoke and change this password, as it is compromised.8‘≤ı÷¶2b 319f4d26e3c536b5dd871bb2c52e3178h
+x	java:S107Ü"=Method has 10 parameters, which is greater than 7 authorized.8Â¶Ï÷¶2b e701c719b9e505a45f73b7216312d1a8h
+^	java:S106l"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+â	java:S100Ü"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8◊…È÷¶2b e701c719b9e505a45f73b7216312d1a8h
+o	java:S125"<This block of commented-out lines of code should be removed.b 4212ac99e46afe8dfbe8b632a6269650h
+c
+java:S3740-"/Provide the parametrized type for this generic.b 57a97a39435cfdfed96e03f2a3bc27ceh
+ã
+java:S2095ã"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.8›û˙÷¶2b bdc4c3f5bdb65ea16b7d7609f166fac5h
+f	java:S106ü"+Replace this use of System.err by a logger.8ù√ﬂ◊¶2b af259b5629da223c99d853ddc8045589h
+m
+java:S1128"2Remove this unused import 'java.sql.SQLException'.8ÿüö◊¶2b cc300784780d6f9193c0fdccdf64c0a6h
+j
+java:S6437/"6Revoke and change this password, as it is compromised.b 319f4d26e3c536b5dd871bb2c52e3178h

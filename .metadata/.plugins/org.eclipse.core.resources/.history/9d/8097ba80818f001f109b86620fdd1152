@@ -1,0 +1,10 @@
+package pcp.unidad1.relacion07_3;
+
+public class procesadorFicherosAPP {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+
+  }
+
+}

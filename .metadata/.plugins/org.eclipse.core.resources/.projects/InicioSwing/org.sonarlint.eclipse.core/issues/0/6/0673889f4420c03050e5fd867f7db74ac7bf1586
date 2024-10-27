@@ -1,0 +1,11 @@
+
+h
+java:S1068"-Remove this unused "productos" private field.8 „è¬§2b b844df4c974767cd2fe00336548bf6c5h
+c
+java:S16049"(Make this anonymous inner class a lambda8¶Ìâ¬§2b 65b17b751d67188db4a2eea102b1f843h
+a
+java:S11993"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+f
+java:S1948"+Make "productos" transient or serializable.8›Œç¬§2b b844df4c974767cd2fe00336548bf6c5h
+a
+java:S11997"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h

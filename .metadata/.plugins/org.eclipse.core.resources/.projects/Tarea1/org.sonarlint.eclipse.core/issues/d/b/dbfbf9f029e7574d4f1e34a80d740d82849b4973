@@ -1,0 +1,6 @@
+
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 4edd7b2729e85c5f4cf4b946a9d84836h
+e	java:S106%"+Replace this use of System.out by a logger.8¾Ø«Ó¡2b bb1c3f2ea781263d3a2bb92b06a2061fh
+™
+java:S1192"^Define a constant instead of duplicating this literal "Ayuntamiento de GijÃ³n/XixÃ³n" 3 times.8¾Ø«Ó¡2b 8a23a436544029df47dbfb7606d2d78bh
+e	java:S106"+Replace this use of System.out by a logger.8òÄÔ÷ 2b bb1c3f2ea781263d3a2bb92b06a2061fh

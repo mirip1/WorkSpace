@@ -1,0 +1,8 @@
+
+e
+java:S1481"*Remove this unused "tabla" local variable.8Î³³„Ô1b 3cbec8a1fe8edd4edb94302f95f45188h
+2
+java:S1220""Move this file to a named package.h
+t
+java:S1854"9Remove this useless assignment to local variable "tabla".8Î³³„Ô1b ea46dc04ca621bcc08ca3bcc55c1857bh
+c	java:S108")Either remove or fill this block of code.8›–ì„Ô1b f95b70fdc3088560732a5ac135644506h

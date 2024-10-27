@@ -1,0 +1,44 @@
+package Ej2;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+public class TablaMultiplicarUnNumeroApp {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    Scanner scan = new Scanner(System.in);
+    String ruta = null;
+    if (args.length != 0) {
+      ruta = args[0];
+    }else {
+      System.out.println("Especifique la ruta de archivo: ");
+      ruta = scan.nextLine();
+    }
+    //Intentamos encontrar el archivo
+    try {
+      BufferedReader flujoTexto = new BufferedReader(new FileReader(ruta));
+      System.out.println(flujoTexto.readLine());
+      
+      
+      
+    } catch (FileNotFoundException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+      System.out.println("error");
+
+    }catch (IOException e) {
+      e.printStackTrace();
+      System.out.println("error");
+
+    }
+    
+    
+    
+  }
+
+}

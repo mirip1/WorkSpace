@@ -1,0 +1,14 @@
+package main;
+
+import utils.Utils;
+
+public class Main {
+  public static void main(String[] args) {
+    Utils conexion = new Utils();
+//    conexion.crearTablaPeliculas();
+    conexion.cargarPeliculas("/src/resources/pelis.csv");
+        
+        
+  }
+  
+}

@@ -1,0 +1,15 @@
+
+Y
+java:S2119"Save and re-use this "Random".8∂ﬂÕ‘’1b 64663f4646781c9c0110838b905daa23h
+W
+java:S1643B"Use a StringBuilder instead.8ÒÂ≤œ÷1b 5c894636500f788f3cd2d513b1050679h
+º
+java:S1186
+"ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.8∂ﬂÕ‘’1b b9ec79939fb233ec56f9f9242ded510ah
+X
+java:S1118
+"Hide this public constructor.8∂ﬂÕ‘’1b b9ec79939fb233ec56f9f9242ded510ah
+r
+java:S1128"7Remove this unused import 'java.util.stream.IntStream'.8ÍÅË‘’1b 9109a848a9a5e87b6249744cc6454f69h
+W
+java:S1643<"Use a StringBuilder instead.8ÒÂ≤œ÷1b 5c894636500f788f3cd2d513b1050679h

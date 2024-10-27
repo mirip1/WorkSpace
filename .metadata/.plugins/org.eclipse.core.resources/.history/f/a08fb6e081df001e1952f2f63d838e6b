@@ -1,0 +1,58 @@
+package Actividad2;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JTextArea;
+import java.awt.BorderLayout;
+import java.awt.ScrollPane;
+import java.awt.Scrollbar;
+import javax.swing.JScrollPane;
+import javax.swing.ScrollPaneConstants;
+import javax.swing.border.MatteBorder;
+import java.awt.Color;
+
+public class ContarPalabrasSwingApp {
+
+  private JFrame frame;
+
+  /**
+   * Launch the application.
+   */
+  public static void main(String[] args) {
+    EventQueue.invokeLater(new Runnable() {
+      public void run() {
+        try {
+          ContarPalabrasSwingApp window = new ContarPalabrasSwingApp();
+          window.frame.setVisible(true);
+        } catch (Exception e) {
+          e.printStackTrace();
+        }
+      }
+    });
+  }
+
+  /**
+   * Create the application.
+   */
+  public ContarPalabrasSwingApp() {
+    initialize();
+  }
+
+  /**
+   * Initialize the contents of the frame.
+   */
+  private void initialize() {
+    frame = new JFrame();
+    frame.setBounds(100, 100, 450, 309);
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    frame.getContentPane().setLayout(null);
+    
+    JScrollPane scrollPane = new JScrollPane();
+    scrollPane.setBounds(10, 21, 416, 127);
+    frame.getContentPane().add(scrollPane);
+    
+    JTextArea textArea = new JTextArea();
+    scrollPane.setViewportView(textArea);
+  }
+}

@@ -1,0 +1,79 @@
+package prog.unidad05.gestionclientes.core;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * Almacen de Cliente(s)
+ */
+public class Clientes {
+  
+  private Map<String, Cliente> mapaClientes;
+  private ArrayList<Cliente> listaClientes;
+  
+  
+  //Proveedor de almacenamiento a emplear para leer y escribir los clientes desde o hacia almacenamiento secundario
+  private ProveedorAlmacenamientoClientes proveedorAlmacenamiento;
+
+  /**
+   * Constructor
+   * @param proveedorAlmacenamiento Proveedor de almacenamiento a emplear para leer y escribir los clientes desde o hacia almacenamiento secundario
+   * @throws NullPointerException Si proveedorAlmacenamiento es null
+   * @throws ClientesException  Si hay algún error al acceder al almacenamiento
+   */
+  public Clientes(ProveedorAlmacenamientoClientes proveedorAlmacenamiento) {
+    mapaClientes = new HashMap<>();
+    listaClientes = new ArrayList<>();
+  }
+  
+  /**
+   * Añade un nuevo cliente. El cliente se almacena en almacenamiento secundario inmediatamente
+   * @param cliente Nuevo cliente a añadir. No puede ser null ni su NIF coincidir con el NIF de un cliente ya almacenado
+   * @throws NullPointerException Si cliente es null
+   * @throws ClientesException  Si ya hay un cliente con el mismo NIF o hay problemas con el almacenamiento
+   */
+  public void addCliente(Cliente cliente) {
+    //almacenamos los clientes en un mapa e inmediatamente en proveedorAlmacenamiento
+    //pasamos de mapa a Array
+    if (!existeNif(cliente.getNif())) {
+      mapaClientes.put(cliente.getNif(), cliente);
+      Cliente[] clientes = mapaClientes.values().toArray(new Cliente[0]);
+      proveedorAlmacenamiento.saveAll(clientes);
+      
+    }else {
+      throw new ClientesException();
+    }
+  }
+  
+  
+  /**
+   * Actualiza un cliente ya existente. El cliente se actualiza inmediatamente en el almacenamiento secundario
+   * @param cliente Cliente a almacenar. No puede ser null y su NIF debe coincidir con el de algún cliente ya almacenado.
+   * @throws ClientesException Si no existe en el almacén ningún cliente con el mismo NIF que el cliente proporcionado o no se puede almacenar en almacenamiento secundario
+   */
+  public void updateCliente(Cliente cliente) {
+    
+    
+  }
+    
+    
+
+  
+  
+  
+  /**
+   * Comprueba si el NIF ya esta creado  
+   * @param NIF
+   * @return true si existe ya
+   */
+  private boolean existeNif(String nif) {
+    //Como es un mapa utilizando el NIF como Key buscamos si existe ya el NIF.
+    if (mapaClientes.get(nif) == null) {
+      return false;
+    } else {
+      return true;
+    }
+  }
+  
+}

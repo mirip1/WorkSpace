@@ -1,0 +1,20 @@
+package prueba1;
+
+public class Main {
+
+  public static void main(String[] args) {
+    Clientes lista = new Clientes();
+    
+    lista.addCliente(new Cliente("Miguel", "Velasco", 18, 2050.50));
+    lista.addCliente(new Cliente("Antonio", "Perez", 23, 1000.50));
+    lista.addCliente(new Cliente("Paco", "Ruiz", 35, 3000));
+    lista.addCliente(new Cliente("Lucia", "Fernandez", 20, 2450.50));
+    
+    System.out.println(lista.buscarNombre("Paco").toString());
+);
+    
+    
+
+  }
+
+}

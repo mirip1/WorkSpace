@@ -1,0 +1,12 @@
+
+„	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 167283ddff57cd0b57a3223a43dbe7bfh
+„	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 68ca8750921ac5034c6cd81d7d29f071h
+„	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b f94633739584689b339d2eab2b7562c9h
+„	java:S117_"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b da0dd656f7f27f9ef2cd17f9b913ad98h
+}
+java:S3252#"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+„	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b ff742da6874b4d83159516fd5c990e72h
+„	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 33b54521b18e98bf14028c4ac0516845h
+„	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 84f411b5ae5b86f13ba661b425a84f8ch
+„	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 91d20ef5397fd536e48c81f0edb42e87h
+„	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b bb67c0cde651c325f8ee3ef76d46b1ffh

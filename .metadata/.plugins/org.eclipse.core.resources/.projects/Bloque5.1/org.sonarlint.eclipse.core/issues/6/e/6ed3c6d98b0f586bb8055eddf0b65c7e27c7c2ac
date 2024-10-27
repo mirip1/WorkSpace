@@ -1,0 +1,26 @@
+
+c
+java:S3740"/Provide the parametrized type for this generic.b 57a97a39435cfdfed96e03f2a3bc27ceh
+c
+java:S3740"/Provide the parametrized type for this generic.b 57a97a39435cfdfed96e03f2a3bc27ceh
+z
+java:S1192#"FDefine a constant instead of duplicating this literal "error" 4 times.b 66eec6bc0ddfe3cf8ddad7021575856eh
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 136e6be6fb4f6ab0f9d2be3d1b2b5599h
+w
+java:S2583G"CChange this condition so that it does not always evaluate to "true"b d8a10f904b1c5b04609251297508e7e5h
+x
+java:S2147%"DCombine this catch with the one at line 32, which has the same body.b e1e88b9b0bd46191dcc5a68d14665befh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+f
+java:S1135!"2Complete the task associated to this TODO comment.b 7070b9ee421ce52b0a94300bdc011420h
+^	java:S106#"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106'"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+x
+java:S2147="DCombine this catch with the one at line 56, which has the same body.b e1e88b9b0bd46191dcc5a68d14665befh
+^	java:S1062"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+f
+java:S11359"2Complete the task associated to this TODO comment.b 7070b9ee421ce52b0a94300bdc011420h
+^	java:S106;"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106?"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+f
+java:S1135Q"2Complete the task associated to this TODO comment.b 7070b9ee421ce52b0a94300bdc011420h

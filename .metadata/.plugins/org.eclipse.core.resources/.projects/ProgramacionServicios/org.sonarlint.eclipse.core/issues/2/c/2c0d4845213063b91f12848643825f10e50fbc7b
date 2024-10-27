@@ -1,0 +1,10 @@
+
+e	java:S106"+Replace this use of System.out by a logger.8Ç„§ï¡2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8Ç„§ï¡2b bb1c3f2ea781263d3a2bb92b06a2061fh
+’	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.8£“Ùï¡2b 865c0c0b4ab0e063e5caa3387c1a8741h
+e	java:S106"+Replace this use of System.err by a logger.8ÞÑ°ï¡2b af259b5629da223c99d853ddc8045589h
+W
+java:S1643"Use a StringBuilder instead.8ÅÜ¶ï¡2b 9c9752fd8c878f87d8b52e927ba218abh
+j
+java:S1128"/Remove this unused import 'java.util.Iterator'.8™ïÅï¡2b d5884e7ee7689e3595cedec1312f6d14h
+e	java:S106"+Replace this use of System.out by a logger.8Ñ±°ï¡2b bb1c3f2ea781263d3a2bb92b06a2061fh

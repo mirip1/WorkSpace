@@ -1,0 +1,8 @@
+
+d
+java:S1481
+")Remove this unused "scan" local variable.8ï–Ä¥‹1b 53aefec08170b2ebed981a0a86d0dbe0h
+m
+java:S1135"2Complete the task associated to this TODO comment.8»¢Ï≥‹1b 7070b9ee421ce52b0a94300bdc011420h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 346ed4508dcddcbbff995c4b1a667aefh
+e	java:S106"+Replace this use of System.out by a logger.8Äíö¥‹1b bb1c3f2ea781263d3a2bb92b06a2061fh

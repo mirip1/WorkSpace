@@ -1,0 +1,39 @@
+package models;
+
+public class Pelicula {
+  private int id;
+  private String title;
+  private String description;
+  private int release_year;
+  private int language_id;
+  private double length;
+  private String rating;
+  
+  /**
+   * Constructor
+   * @param id
+   * @param title
+   * @param description
+   * @param release_year
+   * @param language_id
+   * @param length
+   * @param rating
+   */
+  public Pelicula(int id, String title, String description, int release_year, int language_id, double length,
+      String rating) {
+    super();
+    this.id = id;
+    this.title = title;
+    this.description = description;
+    this.release_year = release_year;
+    this.language_id = language_id;
+    this.length = length;
+    this.rating = rating;
+  }
+  
+  
+  
+  
+  
+
+}

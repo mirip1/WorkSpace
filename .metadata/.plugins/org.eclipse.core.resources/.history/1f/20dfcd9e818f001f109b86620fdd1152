@@ -1,0 +1,15 @@
+package pcp.unidad1.relacion07_3;
+
+public class procesadorFicherosAPP {
+  
+  private static final String fichero1 = "informatica";
+
+  public static void main(String[] args) {
+    
+    
+    
+    
+
+  }
+
+}

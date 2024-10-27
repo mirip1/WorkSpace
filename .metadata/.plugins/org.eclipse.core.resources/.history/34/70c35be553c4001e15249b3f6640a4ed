@@ -1,0 +1,87 @@
+package Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.List;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import pk_SuperBuscaMinas.BotonMina;
+import pk_SuperBuscaMinas.BotonMina.Estado;
+import pk_SuperBuscaMinas.BotonMina.Valor;
+import pk_SuperBuscaMinas.Coordenadas;
+import pk_SuperBuscaMinas.MatrizBotones;
+import pk_SuperBuscaMinas.Util.Posicion;
+
+class MatrizBotonesTest {
+
+  private static MatrizBotones matriz;
+
+  @BeforeAll
+  static void setUp() {
+    // Crear la matriz 5x5
+    matriz = new MatrizBotones(5, 5);
+
+    // Poner 6 minas donde se desee
+    matriz.getBoton(0, 0).setValor(Valor.MINA);
+
+    matriz.getListaPosicionMinas().add(new Coordenadas(0, 0));
+
+    matriz.getBoton(4, 1).setValor(Valor.MINA);
+    matriz.getListaPosicionMinas().add(new Coordenadas(4, 1));
+
+    matriz.getBoton(0, 2).setValor(Valor.MINA);
+    matriz.getListaPosicionMinas().add(new Coordenadas(0, 2));
+
+    matriz.getBoton(1, 0).setValor(Valor.MINA);
+    matriz.getListaPosicionMinas().add(new Coordenadas(1, 0));
+
+    matriz.getBoton(4, 0).setValor(Valor.MINA);
+    matriz.getListaPosicionMinas().add(new Coordenadas(4, 0));
+    
+  }
+
+  @Test
+  void testHayBoton() {
+    BotonMina boton = new BotonMina();
+
+    // Coprobamos que se han colocado los botones correctamente
+    assertTrue(matriz.hayBoton(boton, Posicion.DER));
+    assertTrue(matriz.hayBoton(boton, Posicion.INF));
+    assertTrue(matriz.hayBoton(boton, Posicion.INF_DER));
+    assertFalse(matriz.hayBoton(boton, Posicion.INF_IZQ));
+    assertFalse(matriz.hayBoton(boton, Posicion.IZQ));
+    assertFalse(matriz.hayBoton(boton, Posicion.SUP));
+    assertFalse(matriz.hayBoton(boton, Posicion.SUP_DER));
+    assertFalse(matriz.hayBoton(boton, Posicion.SUP_IZQ));
+    
+    System.out.println("Botón Inicial:     "+ boton.toString());
+  }
+
+  @Test
+  void testMuestraMinas() {
+
+    List<Coordenadas> listaMinas = matriz.getListaPosicionMinas();
+    for (Coordenadas coord : listaMinas) {
+     
+      assertEquals(matriz.getBoton(coord).getEstado(), Estado.BOTON);
+
+    }
+
+  }
+
+  @Test
+  void testRecursivoDestapaBotonesAdyacentes() {
+    // Prueba 1: Simulo el click en un botón con valor NUMERO (2, 0) por ejemplo,
+    // por lo que no debería destapar adyacentes
+    matriz.getBoton(2, 0).cambiarAspecto(Estado.NUMERO);
+    matriz.recursivoDestapaBotonesAdyacentes(matriz.getBoton(2, 0));
+    // Prueba 2: Simulo el click en un botón con valor VACIO (3,3) por ejemplo, por
+    // lo que debe destapar
+    matriz.getBoton(3, 3).cambiarAspecto(Estado.PULSADO);
+    matriz.recursivoDestapaBotonesAdyacentes(matriz.getBoton(3, 3));
+
+  }
+
+}

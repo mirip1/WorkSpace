@@ -1,0 +1,8 @@
+
+ƒ
+java:S1192"HDefine a constant instead of duplicating this literal "Montero" 4 times.8êŠß¦2b be225517a01ae57ef38a5140be8b2e8eh
+v	java:S125$"<This block of commented-out lines of code should be removed.8ÃŞ¦2b 2beb377d1d85ace11df31a70c39bf476h
+
+java:S1192"FDefine a constant instead of duplicating this literal "Cadiz" 3 times.8êŠß¦2b d4b57c92d567217e44be0dfbbd85c0b6h
+e	java:S106"+Replace this use of System.out by a logger.8ËÆ€ß¦2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8êŠß¦2b bb1c3f2ea781263d3a2bb92b06a2061fh

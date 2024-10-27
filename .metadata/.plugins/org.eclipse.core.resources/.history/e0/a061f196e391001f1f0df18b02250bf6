@@ -1,0 +1,11 @@
+package models;
+
+public class Pelicula {
+  private int id;
+  private String title;
+  private String description;
+  
+  
+  
+
+}

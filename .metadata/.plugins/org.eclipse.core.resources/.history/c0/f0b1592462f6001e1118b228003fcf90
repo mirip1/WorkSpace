@@ -1,0 +1,15 @@
+package prueba1;
+
+public class Main {
+
+  public static void main(String[] args) {
+    Clientes lista = new Clientes();
+    
+    lista.addCliente(new Cliente("Miguel", "Velasco", 18, 2050.50));
+    
+    
+    
+
+  }
+
+}

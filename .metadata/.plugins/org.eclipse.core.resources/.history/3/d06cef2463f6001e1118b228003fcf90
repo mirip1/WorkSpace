@@ -1,0 +1,35 @@
+package prueba1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Clientes implements Comparable{
+  
+  
+  private List<Cliente> lista;
+
+  public Clientes() {
+    lista = new ArrayList<>();
+  }
+  
+  public void addCliente(Cliente cliente) {
+    lista.add(cliente);
+  }
+  
+  public void imprimirClientes() {
+    lista.forEach(System.out :: println);
+  }
+  
+  public Cliente buscarNombre(String nombre) {
+    Cliente[] cliente = new Cliente[1];
+    lista.forEach(i ->{
+      if (i.getNombre().equals(nombre)) {
+        cliente[0] = i;
+      }
+    });
+    return cliente[0];
+    
+  }
+  
+  
+}

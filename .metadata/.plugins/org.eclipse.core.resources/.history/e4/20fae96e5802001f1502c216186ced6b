@@ -1,0 +1,10 @@
+package practica1;
+
+public class Trabajador {
+
+  public Object trab() {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+}

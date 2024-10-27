@@ -1,0 +1,10 @@
+package psp.unidad1.relacion06;
+
+public class Maestro {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+
+  }
+
+}

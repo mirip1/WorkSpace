@@ -1,0 +1,3 @@
+
+Vehiculo(String matricula, Fecha fechaMatriculacion)
+Constructor protegido para que no pueda usarse para crear objetos desde clases que no hereden de esta

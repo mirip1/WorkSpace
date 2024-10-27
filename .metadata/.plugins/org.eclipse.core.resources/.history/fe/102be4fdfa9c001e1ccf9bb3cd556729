@@ -1,0 +1,94 @@
+package prog.unidad04.practica406.principal;
+import java.util.Scanner;
+
+import prog.unidad04.practica406.libreria.*;
+import prog.unidad04.practica406.libreria.ConvertibleATexto;
+import prog.unidad04.practica406.libreria.Automovil;
+import prog.unidad04.practica406.libreria.Vehiculo;
+import prog.unidad04.practica406.libreria.Fecha;
+import prog.unidad04.practica406.libreria.Motocicleta;
+
+public class VehiculosApp {
+
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    //     double pesetas = Double.parseDouble(scan.nextLine());
+    
+
+    System.out.println("PRÁCTICA DE Miguel Velasco. GESTIÓN DE VEHÍCULOS");
+    
+    //Creamos el Automovil
+    
+    //Introducimos la matrícula
+    System.out.println("Introduce la matrícula del automóvil (4 números, 0 ó más espacios y tres letras mayúsculas):");
+    String matriculaAutomovil = scan.nextLine();
+    
+    //Introducimos la Fecha 
+    //Dias
+    System.out.println("Introduzca el día de la fecha de matriculación del automóvil: ");
+    int diaAutomovil = Integer.parseInt(scan.nextLine());
+    //Mes
+    System.out.println("Introduzca el mes de la fecha de matriculación del automóvil: ");
+    int mesAutomovil = Integer.parseInt(scan.nextLine());
+    //año
+    System.out.println("Introduzca el anyo de la fecha de matriculación del automóvil: ");
+    int anyoAutomovil = Integer.parseInt(scan.nextLine());
+    
+    //Introducimos el color
+    System.out.println("Introduzca el color del automóvil (blanco, negro o azul): ");
+    String colorAutomovil= scan.nextLine();
+    
+    //Introducimos el Num. Plazas
+    System.out.println("Introduzca el número de plazas del vehículo (1 ó mas): ");
+    int PlazaAutomovil = Integer.parseInt(scan.nextLine());
+    
+    Fecha fechaMatriculacionAutomovil = new Fecha(diaAutomovil, mesAutomovil, anyoAutomovil);
+    Automovil automovil = new Automovil(matriculaAutomovil, fechaMatriculacionAutomovil, colorAutomovil , PlazaAutomovil );
+    
+    
+    
+    //Creamos el Motocicleta
+    
+    //Introducimos la matrícula
+    System.out.println("Introduce la matrícula del Motocicleta (4 números, 0 ó más espacios y tres letras mayúsculas):");
+    String matriculaMotocicleta = scan.nextLine();
+    
+    //Introducimos la Fecha 
+    //Dias
+    System.out.println("Introduzca el día de la fecha de matriculación del Motocicleta: ");
+    int diaMotocicleta = Integer.parseInt(scan.nextLine());
+    //Mes
+    System.out.println("Introduzca el mes de la fecha de matriculación del Motocicleta: ");
+    int mesMotocicleta = Integer.parseInt(scan.nextLine());
+    //año
+    System.out.println("Introduzca el anyo de la fecha de matriculación del Motocicleta: ");
+    int anyoMotocicleta = Integer.parseInt(scan.nextLine());
+    
+    //Introducimos la cilindrada
+    System.out.println("Introduzca la cilindrada de la motocicleta (50 ó mas): ");
+    int cilindradaMotocicleta = Integer.parseInt(scan.nextLine());
+    
+    Fecha fechaMatriculacionMotocicleta = new Fecha(diaMotocicleta, mesMotocicleta, anyoMotocicleta);
+    Motocicleta motocicleta = new Motocicleta(matriculaMotocicleta, fechaMatriculacionMotocicleta, cilindradaMotocicleta );
+    
+    
+    //Imprimos los datos por pantalla
+    //Datos del Automovil
+    System.out.println("Datos de Automóvil: " + automovil.aTexto() );
+    
+    //Datos de la motocicleta
+    System.out.println("Datos de Motocicleta: " + motocicleta.aTexto() );
+   
+    //Datos del Automovil
+    System.out.println("El automóvil lleva matriculado " + automovil.aTexto() + "dias");
+  
+    //Datos de la motocicleta
+    System.out.println("Datos de Motocicleta: " + motocicleta.aTexto() );
+    
+    
+    
+    
+    
+  }
+
+}

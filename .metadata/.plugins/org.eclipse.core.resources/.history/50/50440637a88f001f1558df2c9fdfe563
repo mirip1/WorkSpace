@@ -1,0 +1,26 @@
+package ejercicio1;
+
+public class CifraRSAApp {
+  static final String RUTAALMACEN = "C:\\Users\\mivel\\almacenClaves.jks";
+  static final String RUTACERT = "C:\\Users\\mivel\\rube_publica.cer";
+  static final String RUTACERT2 = "C:\\Users\\mivel\\miguelCert.cer";
+  static final String ALIAS = "rubenPublica";
+  static final String ALIAS2 = "Miguel";
+  static final char[] PASS = {'p','a','s','s','w','o','r','d'};
+  static final char[] PASS2 = {'E','n', 't', 'r', 'e', 'n', 'o','8','8','8'};
+
+  public static void main(String[] args) {
+
+//    if (args.length != 2) {
+//      System.err.println("Se deben pasar dos agrumentos");
+//      throw new IllegalAccessError();
+//    }
+    
+    String mensajeCifrado = CifrarMensaje.cifrarMensaje("Adios", ALIAS2, RUTAALMACEN, PASS);
+    
+    System.out.println(mensajeCifrado);
+//    String mensajeDescifrado = CifrarMensaje.descifrarMensaje(mensajeCifrado, ALIAS, RUTAALMACEN, PASS);
+    
+
+  }
+}

@@ -1,0 +1,47 @@
+package psp.unidad1.relacion06;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+
+public class Maestro {
+
+  private static final String RUTA = "C:\\Users\\mivel\\eclipse-workspace\\Actividad_1.06\\src\\psp\\unidad1\\relacion06";
+  public static void main(String[] args) {
+    String[] comando = {"java", RUTA};
+
+    ProcessBuilder pb = new ProcessBuilder(comando);
+    Process procesoEsclavo;
+    try {
+      procesoEsclavo = pb.start();
+      
+      BufferedReader entradaUsuario = new BufferedReader(new InputStreamReader(System.in));
+      PrintWriter salidaEsclavo = new PrintWriter(new OutputStreamWriter(procesoEsclavo.getOutputStream()), true);
+      BufferedReader entradaEsclavo = new BufferedReader(new InputStreamReader(procesoEsclavo.getInputStream()));
+
+      String texto;
+      while (true) {
+        System.out.print("Introduce un texto (o deja vacío para finalizar): ");
+        texto = entradaUsuario.readLine();
+        if (texto.isEmpty()) {
+          break;
+        }
+        salidaEsclavo.println(texto);
+        String respuesta = entradaEsclavo.readLine();
+        System.out.println("Respuesta del esclavo: " + respuesta);
+      }
+
+      procesoEsclavo.destroy();
+    
+      
+      
+    } catch (IOException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
+
+   
+  }
+}

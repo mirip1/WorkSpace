@@ -1,0 +1,19 @@
+package practica1;
+
+public class Trabajador {
+
+  public Object trab() {
+    // TODO Auto-generated method stub
+    return null;
+  }
+  
+  public float getNom() {
+    // TODO Auto-generated method stub
+    return 0;
+
+  public float masTrab() {
+    // TODO Auto-generated method stub
+    return 0;
+  }
+
+}

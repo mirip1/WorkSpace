@@ -1,0 +1,5 @@
+
+n
+java:S1118":Add a private constructor to hide the implicit public one.b 72b8e53bb244754415423c6b07670509h
+R
+java:S2119"Save and re-use this "Random".b 64663f4646781c9c0110838b905daa23h

@@ -1,0 +1,7 @@
+
+2
+java:S1220""Move this file to a named package.h
+µ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.b fad58de7366495db4650cfefac2fcd61h
+[
+java:S1068"'Remove this unused "URL" private field.b e6b391a8d2c4d45902a23a8b6585703dh

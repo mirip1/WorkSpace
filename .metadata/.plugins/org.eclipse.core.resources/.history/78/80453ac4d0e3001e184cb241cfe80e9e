@@ -1,0 +1,142 @@
+package prog.unidad05.gestionclientes.gui;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.JList;
+import javax.swing.JTextField;
+
+public class GestionClientesSwingApp {
+
+  private JFrame frame;
+  private JTextField textField;
+  private JTextField textField_1;
+  private JTextField textField_2;
+  private JTextField textField_3;
+  private JTextField textField_4;
+
+  /**
+   * Launch the application.
+   */
+  public static void main(String[] args) {
+    EventQueue.invokeLater(new Runnable() {
+      public void run() {
+        try {
+          GestionClientesSwingApp window = new GestionClientesSwingApp();
+          window.frame.setVisible(true);
+        } catch (Exception e) {
+          e.printStackTrace();
+        }
+      }
+    });
+  }
+
+  /**
+   * Create the application.
+   */
+  public GestionClientesSwingApp() {
+    initialize();
+  }
+
+  /**
+   * Initialize the contents of the frame.
+   */
+  private void initialize() {
+    frame = new JFrame();
+    frame.setBounds(100, 100, 615, 366);
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    
+    JLabel lblClientes = new JLabel("Clientes");
+    
+    JScrollPane scrollPane = new JScrollPane();
+    
+    JLabel lblNIF = new JLabel("NIF:");
+    
+    textField = new JTextField();
+    textField.setColumns(10);
+    
+    JLabel lblNombre = new JLabel("Nombre:");
+    
+    textField_1 = new JTextField();
+    textField_1.setText("");
+    textField_1.setColumns(10);
+    
+    JLabel lblEmpleados = new JLabel("Empleados:");
+    
+    textField_2 = new JTextField();
+    textField_2.setColumns(10);
+    
+    JLabel lblApellidos = new JLabel("Apellidos:");
+    
+    textField_3 = new JTextField();
+    textField_3.setColumns(10);
+    
+    JLabel lblFacturacion = new JLabel("Facturacion:");
+    
+    textField_4 = new JTextField();
+    textField_4.setColumns(10);
+    GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
+    groupLayout.setHorizontalGroup(
+      groupLayout.createParallelGroup(Alignment.LEADING)
+        .addGroup(groupLayout.createSequentialGroup()
+          .addContainerGap()
+          .addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+            .addComponent(scrollPane, GroupLayout.DEFAULT_SIZE, 414, Short.MAX_VALUE)
+            .addComponent(lblClientes)
+            .addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
+              .addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
+                .addComponent(lblApellidos)
+                .addPreferredGap(ComponentPlacement.RELATED)
+                .addComponent(textField_3, GroupLayout.PREFERRED_SIZE, 143, GroupLayout.PREFERRED_SIZE)
+                .addGap(88)
+                .addComponent(lblFacturacion)
+                .addPreferredGap(ComponentPlacement.RELATED)
+                .addComponent(textField_4))
+              .addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
+                .addComponent(lblNIF)
+                .addPreferredGap(ComponentPlacement.RELATED)
+                .addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                .addGap(18)
+                .addComponent(lblNombre)
+                .addPreferredGap(ComponentPlacement.RELATED)
+                .addComponent(textField_1, GroupLayout.PREFERRED_SIZE, 141, GroupLayout.PREFERRED_SIZE)
+                .addGap(18)
+                .addComponent(lblEmpleados)
+                .addPreferredGap(ComponentPlacement.RELATED)
+                .addComponent(textField_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))))
+          .addContainerGap())
+    );
+    groupLayout.setVerticalGroup(
+      groupLayout.createParallelGroup(Alignment.LEADING)
+        .addGroup(groupLayout.createSequentialGroup()
+          .addContainerGap()
+          .addComponent(lblClientes)
+          .addPreferredGap(ComponentPlacement.RELATED)
+          .addComponent(scrollPane, GroupLayout.PREFERRED_SIZE, 108, GroupLayout.PREFERRED_SIZE)
+          .addPreferredGap(ComponentPlacement.UNRELATED)
+          .addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+            .addComponent(lblNIF)
+            .addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+            .addComponent(lblNombre)
+            .addComponent(textField_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+            .addComponent(lblEmpleados)
+            .addComponent(textField_2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+          .addGap(18)
+          .addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+            .addComponent(lblApellidos)
+            .addComponent(textField_3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+            .addComponent(lblFacturacion)
+            .addComponent(textField_4, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+          .addContainerGap(131, Short.MAX_VALUE))
+    );
+    
+    JList list = new JList();
+    scrollPane.setViewportView(list);
+    frame.getContentPane().setLayout(groupLayout);
+  }
+}

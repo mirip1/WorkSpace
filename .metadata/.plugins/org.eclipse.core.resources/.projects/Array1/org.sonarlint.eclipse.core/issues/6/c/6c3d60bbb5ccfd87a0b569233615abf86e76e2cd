@@ -1,0 +1,9 @@
+
+R
+java:S2119"Save and re-use this "Random".b 64663f4646781c9c0110838b905daa23h
+n
+java:S1118":Add a private constructor to hide the implicit public one.b 72b8e53bb244754415423c6b07670509h
+k
+java:S2589"7Remove this expression which always evaluates to "true"b fae102f56b306510baa240b183cb526fh
+k
+java:S2589)"7Remove this expression which always evaluates to "true"b fae102f56b306510baa240b183cb526fh

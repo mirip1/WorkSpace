@@ -1,0 +1,28 @@
+
+\
+java:S16049"(Make this anonymous inner class a lambdab 65b17b751d67188db4a2eea102b1f843h
+\
+java:S1604F"(Make this anonymous inner class a lambdab 65b17b751d67188db4a2eea102b1f843h
+\
+java:S1604Q"(Make this anonymous inner class a lambdab 65b17b751d67188db4a2eea102b1f843h
+]
+java:S1604ƒ"(Make this anonymous inner class a lambdab ea52882b4555d68253c21906fed1a7f9h
+2
+java:S1220""Move this file to a named package.h
+}
+java:S3252*"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.b 28646df8e4f0595f8d2e64a54c827ef8h
+d
+java:S1128"0Remove this unused import 'java.awt.GridLayout'.b fd75d37effb192fc2452f6bb9e11902bh
+R
+java:S1128
+"Remove this duplicated import.b 647165940d2971f696436f6a7da1f89dh
+u
+java:S1128"ARemove this unused import 'com.jgoodies.forms.layout.FormLayout'.b fa25646652b2b55a7ac2e7afbc01de10h
+u
+java:S1128"ARemove this unused import 'com.jgoodies.forms.layout.ColumnSpec'.b 5ba34542ecdc8b12e4c6fc913d7ebd59h
+r
+java:S1128">Remove this unused import 'com.jgoodies.forms.layout.RowSpec'.b 22624f77b76ff6e061fc0d6764a1660fh
+t
+java:S1128"@Remove this unused import 'com.jgoodies.forms.layout.FormSpecs'.b 52c37f1a7f9593185bc4db2de703aecfh

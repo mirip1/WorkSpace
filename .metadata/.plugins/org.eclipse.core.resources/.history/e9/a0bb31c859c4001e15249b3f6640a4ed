@@ -1,0 +1,150 @@
+package Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.List;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import pk_SuperBuscaMinas.BotonMina;
+import pk_SuperBuscaMinas.BotonMina.Estado;
+import pk_SuperBuscaMinas.BotonMina.Valor;
+import pk_SuperBuscaMinas.Coordenadas;
+import pk_SuperBuscaMinas.MatrizBotones;
+import pk_SuperBuscaMinas.Util.Posicion;
+
+class MatrizBotonesTest {
+
+  private static MatrizBotones matriz;
+
+  @BeforeAll
+  static void setUp() {
+    // Crear la matriz 5x5
+    matriz = new MatrizBotones(5, 5);
+
+    // Poner 6 minas donde se desee
+    matriz.getBoton(0, 0).setValor(Valor.MINA);
+
+    matriz.getListaPosicionMinas().add(new Coordenadas(0, 0));
+
+    matriz.getBoton(4, 1).setValor(Valor.MINA);
+    matriz.getListaPosicionMinas().add(new Coordenadas(4, 1));
+
+    matriz.getBoton(0, 2).setValor(Valor.MINA);
+    matriz.getListaPosicionMinas().add(new Coordenadas(0, 2));
+
+    matriz.getBoton(1, 0).setValor(Valor.MINA);
+    matriz.getListaPosicionMinas().add(new Coordenadas(1, 0));
+
+    matriz.getBoton(4, 0).setValor(Valor.MINA);
+    matriz.getListaPosicionMinas().add(new Coordenadas(4, 0));
+
+    System.out.println("*************** Inicio Prueba MatrizBotones ***************");
+    System.out.println("Matriz de prueba 5x5 con 6 minas\r\n"
+        + "");
+    matriz.imprimir();
+  }
+
+  @Test
+  void testHayBoton() {
+
+    // Caso botón situado en la esquina superior izquierda
+    BotonMina boton = matriz.getBoton(0, 0);
+    assertTrue(matriz.hayBoton(boton, Posicion.DER));
+    assertTrue(matriz.hayBoton(boton, Posicion.INF));
+    assertTrue(matriz.hayBoton(boton, Posicion.INF_DER));
+    assertTrue(!matriz.hayBoton(boton, Posicion.INF_IZQ));
+    assertTrue(!matriz.hayBoton(boton, Posicion.IZQ));
+    assertTrue(!matriz.hayBoton(boton, Posicion.SUP));
+    assertTrue(!matriz.hayBoton(boton, Posicion.SUP_DER));
+    assertTrue(!matriz.hayBoton(boton, Posicion.SUP_IZQ));
+
+    // Caso botón situado en la esquina superior derecha
+    BotonMina boton2 = matriz.getBoton(0, 4);
+    assertFalse(matriz.hayBoton(boton2, Posicion.DER));
+    assertTrue(matriz.hayBoton(boton2, Posicion.INF));
+    assertFalse(matriz.hayBoton(boton2, Posicion.INF_DER));
+    assertTrue(matriz.hayBoton(boton2, Posicion.INF_IZQ));
+    assertTrue(matriz.hayBoton(boton2, Posicion.IZQ));
+    assertFalse(matriz.hayBoton(boton2, Posicion.SUP));
+    assertFalse(matriz.hayBoton(boton2, Posicion.SUP_DER));
+    assertFalse(matriz.hayBoton(boton2, Posicion.SUP_IZQ));
+
+    // Caso botón situado en la esquina inferior izquierda
+    boton = matriz.getBoton(4, 0);
+    assertTrue(matriz.hayBoton(boton, Posicion.DER));
+    assertFalse(matriz.hayBoton(boton, Posicion.INF));
+    assertFalse(matriz.hayBoton(boton, Posicion.INF_DER));
+    assertFalse(matriz.hayBoton(boton, Posicion.INF_IZQ));
+    assertFalse(matriz.hayBoton(boton, Posicion.IZQ));
+    assertTrue(matriz.hayBoton(boton, Posicion.SUP));
+    assertTrue(matriz.hayBoton(boton, Posicion.SUP_DER));
+    assertFalse(matriz.hayBoton(boton, Posicion.SUP_IZQ));
+
+    // Caso botón situado en la esquina inferior derecha
+    boton = matriz.getBoton(4, 4);
+    assertFalse(matriz.hayBoton(boton, Posicion.DER));
+    assertFalse(matriz.hayBoton(boton, Posicion.INF));
+    assertFalse(matriz.hayBoton(boton, Posicion.INF_DER));
+    assertFalse(matriz.hayBoton(boton, Posicion.INF_IZQ));
+    assertTrue(matriz.hayBoton(boton, Posicion.IZQ));
+    assertTrue(matriz.hayBoton(boton, Posicion.SUP));
+    assertFalse(matriz.hayBoton(boton, Posicion.SUP_DER));
+    assertTrue(matriz.hayBoton(boton, Posicion.SUP_IZQ));
+
+    // Caso botón situado en el centro
+    boton = matriz.getBoton(2, 2);
+    assertTrue(matriz.hayBoton(boton, Posicion.DER));
+    assertTrue(matriz.hayBoton(boton, Posicion.INF));
+    assertTrue(matriz.hayBoton(boton, Posicion.INF_DER));
+    assertTrue(matriz.hayBoton(boton, Posicion.INF_IZQ));
+    assertTrue(matriz.hayBoton(boton, Posicion.IZQ));
+    assertTrue(matriz.hayBoton(boton, Posicion.SUP));
+    assertTrue(matriz.hayBoton(boton, Posicion.SUP_DER));
+    assertTrue(matriz.hayBoton(boton, Posicion.SUP_IZQ));
+    
+    System.out.println("Método HayBoton");
+    System.out.println("Caso botón situado en la esquina superior izquierda");
+    System.out.println("Caso botón situado en la esquina superior derecha");
+    System.out.println("Caso botón situado en la esquina inferior izquierda");
+    System.out.println("Caso botón situado en la esquina inferior derecha");
+    System.out.println("Caso botón situado en el centro");
+    System.out.println("");
+    
+    
+  }
+
+  @Test
+  void testMuestraMinas() {
+
+    List<Coordenadas> listaMinas = matriz.getListaPosicionMinas();
+    for (Coordenadas coord : listaMinas) {
+
+      assertEquals(matriz.getBoton(coord).getEstado(), Estado.BOTON);
+
+    }
+
+    matriz.imprimir();
+
+
+  }
+
+  @Test
+  void testRecursivoDestapaBotonesAdyacentes() {
+    // Prueba 1: Simulo el click en un botón con valor NUMERO (2, 0) por ejemplo,
+    // por lo que no debería destapar adyacentes
+    matriz.getBoton(2, 0).cambiarAspecto(Estado.NUMERO);
+    matriz.recursivoDestapaBotonesAdyacentes(matriz.getBoton(2, 0));
+    // Prueba 2: Simulo el click en un botón con valor VACIO (3,3) por ejemplo, por
+    // lo que debe destapar
+    matriz.getBoton(3, 3).cambiarAspecto(Estado.PULSADO);
+    matriz.recursivoDestapaBotonesAdyacentes(matriz.getBoton(3, 3));
+    
+    matriz.imprimir();
+
+
+
+  }
+
+}

@@ -1,0 +1,18 @@
+package practica1;
+
+public class CostePersonalRefactorizado {
+  public static float calcularCoste(Trabajador[] trabajadores) {
+    float costeFinal = 0;
+    
+    for (Trabajador trabajador : trabajadores) {
+      if (trabajador.trab() == TipoTrabajador.DIRECTOR.getNombre() || trabajador.trab() == TipoTrabajador.SUBDIRECTOR.getNombre()) {
+        costeFinal += trabajador.getNom();
+      } else {
+        costeFinal += trabajador.getNom() + (trabajador.masTrab() * 20);
+      }
+    }
+    
+    return costeFinal;
+  }
+
+}

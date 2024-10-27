@@ -1,0 +1,81 @@
+package prog.ud07.juego;
+
+/**
+ * Personaje que simula un Sanador
+ */
+public class Sanador extends Personaje {
+  
+  
+  
+  /**
+   * Constructor
+   * 
+   * @param nombre      Nombre del personaje
+   * @param vidaInicial Vida inicial del personaje
+   * @throws IllegalArgumentException si algun dato esta mal
+   */
+  public Sanador(String nombre, int vidaInicial) {
+    super(nombre, vidaInicial);
+    // TODO Auto-generated constructor stub
+  }
+
+  @Override
+  public void ganaVida(int puntosGanados) {
+    // TODO Auto-generated method stub
+    super.ganaVida((int) (puntosGanados*1.3) );
+  }
+
+  @Override
+  public int ataca() {
+    // TODO Auto-generated method stub
+    return super.ataca();
+  }
+
+  @Override
+  public int cura() {
+    //Si esta vivo cura tanto como la mitad de su vida actual
+    if (isEstaVivo()) {
+      return getVidaActual()/2;
+    }
+    return super.cura();
+  }
+
+  @Override
+  public void pierdeVida(int puntosPerdidos) {
+    // TODO Auto-generated method stub
+    super.pierdeVida(puntosPerdidos);
+  }
+
+  @Override
+  protected void muere() {
+    // TODO Auto-generated method stub
+    super.muere();
+  }
+
+  @Override
+  public String getNombre() {
+    // TODO Auto-generated method stub
+    return super.getNombre();
+  }
+
+  @Override
+  public int getVidaInicial() {
+    // TODO Auto-generated method stub
+    return super.getVidaInicial();
+  }
+
+  @Override
+  public int getVidaActual() {
+    // TODO Auto-generated method stub
+    return super.getVidaActual();
+  }
+
+  @Override
+  public boolean isEstaVivo() {
+    // TODO Auto-generated method stub
+    return super.isEstaVivo();
+  }
+
+  
+  
+}

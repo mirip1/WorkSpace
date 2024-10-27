@@ -1,0 +1,184 @@
+package prog.unidad05.gestionclientes.gui;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.JList;
+import javax.swing.JTextField;
+import javax.swing.JCheckBox;
+import javax.swing.JButton;
+
+public class GestionClientesSwingApp {
+
+  private JFrame frame;
+  private JTextField textNIF;
+  private JTextField textNombre;
+  private JTextField textEmpleados;
+  private JTextField textApellidos;
+  private JTextField textFacturacion;
+
+  /**
+   * Launch the application.
+   */
+  public static void main(String[] args) {
+    EventQueue.invokeLater(new Runnable() {
+      public void run() {
+        try {
+          GestionClientesSwingApp window = new GestionClientesSwingApp();
+          window.frame.setVisible(true);
+        } catch (Exception e) {
+          e.printStackTrace();
+        }
+      }
+    });
+  }
+
+  /**
+   * Create the application.
+   */
+  public GestionClientesSwingApp() {
+    initialize();
+  }
+
+  /**
+   * Initialize the contents of the frame.
+   */
+  private void initialize() {
+    frame = new JFrame();
+    frame.setBounds(100, 100, 615, 430);
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    
+    JLabel lblClientes = new JLabel("Clientes");
+    
+    JScrollPane scrollPane = new JScrollPane();
+    
+    JLabel lblNIF = new JLabel("NIF:");
+    
+    textNIF = new JTextField();
+    textNIF.setColumns(10);
+    
+    JLabel lblNombre = new JLabel("Nombre:");
+    
+    textNombre = new JTextField();
+    textNombre.setText("");
+    textNombre.setColumns(10);
+    
+    JLabel lblEmpleados = new JLabel("Empleados:");
+    
+    textEmpleados = new JTextField();
+    textEmpleados.setColumns(10);
+    
+    JLabel lblApellidos = new JLabel("Apellidos:");
+    
+    textApellidos = new JTextField();
+    textApellidos.setColumns(10);
+    
+    JLabel lblFacturacion = new JLabel("Facturación:");
+    
+    textFacturacion = new JTextField();
+    textFacturacion.setColumns(10);
+    
+    JCheckBox chckbxUE = new JCheckBox("¿Es nacional de la UE?");
+    
+    JButton btnNuevo = new JButton("Nuevo");
+    
+    JButton btnEliminar = new JButton("Eliminar");
+    
+    JButton btnActualizar = new JButton("Actualizar");
+    
+    JButton btnSalir = new JButton("Salir");
+    
+    JButton btnAceptar = new JButton("Aceptar");
+    
+    JButton btnCancelar = new JButton("Cancelar");
+    GroupLayout groupLayout = new GroupLayout(frame.getContentPane());
+    groupLayout.setHorizontalGroup(
+      groupLayout.createParallelGroup(Alignment.LEADING)
+        .addGroup(groupLayout.createSequentialGroup()
+          .addContainerGap()
+          .addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+            .addComponent(chckbxUE)
+            .addComponent(scrollPane, GroupLayout.DEFAULT_SIZE, 579, Short.MAX_VALUE)
+            .addComponent(lblClientes)
+            .addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
+              .addGroup(groupLayout.createSequentialGroup()
+                .addComponent(lblApellidos)
+                .addPreferredGap(ComponentPlacement.RELATED)
+                .addComponent(textApellidos, GroupLayout.PREFERRED_SIZE, 143, GroupLayout.PREFERRED_SIZE)
+                .addGap(88)
+                .addComponent(lblFacturacion)
+                .addPreferredGap(ComponentPlacement.RELATED)
+                .addComponent(textFacturacion))
+              .addGroup(groupLayout.createSequentialGroup()
+                .addComponent(lblNIF)
+                .addPreferredGap(ComponentPlacement.RELATED)
+                .addComponent(textNIF, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                .addGap(18)
+                .addComponent(lblNombre)
+                .addPreferredGap(ComponentPlacement.RELATED)
+                .addComponent(textNombre, GroupLayout.PREFERRED_SIZE, 141, GroupLayout.PREFERRED_SIZE)
+                .addGap(18)
+                .addComponent(lblEmpleados)
+                .addPreferredGap(ComponentPlacement.RELATED)
+                .addComponent(textEmpleados, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
+            .addGroup(groupLayout.createSequentialGroup()
+              .addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
+                .addComponent(btnAceptar, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnNuevo, GroupLayout.DEFAULT_SIZE, 78, Short.MAX_VALUE))
+              .addPreferredGap(ComponentPlacement.UNRELATED)
+              .addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+                .addGroup(groupLayout.createSequentialGroup()
+                  .addComponent(btnEliminar, GroupLayout.PREFERRED_SIZE, 91, GroupLayout.PREFERRED_SIZE)
+                  .addPreferredGap(ComponentPlacement.UNRELATED)
+                  .addComponent(btnActualizar, GroupLayout.PREFERRED_SIZE, 91, GroupLayout.PREFERRED_SIZE)
+                  .addPreferredGap(ComponentPlacement.UNRELATED)
+                  .addComponent(btnSalir, GroupLayout.PREFERRED_SIZE, 91, GroupLayout.PREFERRED_SIZE))
+                .addComponent(btnCancelar))))
+          .addContainerGap())
+    );
+    groupLayout.setVerticalGroup(
+      groupLayout.createParallelGroup(Alignment.LEADING)
+        .addGroup(groupLayout.createSequentialGroup()
+          .addContainerGap()
+          .addComponent(lblClientes)
+          .addPreferredGap(ComponentPlacement.RELATED)
+          .addComponent(scrollPane, GroupLayout.PREFERRED_SIZE, 160, GroupLayout.PREFERRED_SIZE)
+          .addPreferredGap(ComponentPlacement.RELATED)
+          .addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+            .addComponent(lblNIF)
+            .addComponent(textNIF, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+            .addComponent(lblNombre)
+            .addComponent(textNombre, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+            .addComponent(lblEmpleados)
+            .addComponent(textEmpleados, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+          .addGap(18)
+          .addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+            .addComponent(lblApellidos)
+            .addComponent(textApellidos, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+            .addComponent(lblFacturacion)
+            .addComponent(textFacturacion, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+          .addPreferredGap(ComponentPlacement.UNRELATED)
+          .addComponent(chckbxUE)
+          .addPreferredGap(ComponentPlacement.UNRELATED)
+          .addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+            .addComponent(btnNuevo)
+            .addComponent(btnEliminar)
+            .addComponent(btnActualizar)
+            .addComponent(btnSalir))
+          .addPreferredGap(ComponentPlacement.UNRELATED)
+          .addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+            .addComponent(btnAceptar)
+            .addComponent(btnCancelar))
+          .addContainerGap(127, Short.MAX_VALUE))
+    );
+    
+    JList list = new JList();
+    scrollPane.setViewportView(list);
+    frame.getContentPane().setLayout(groupLayout);
+  }
+}

@@ -1,0 +1,10 @@
+package Fichero2Ej3;
+
+public class GeneraCremalleraTextoApp {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+
+  }
+
+}

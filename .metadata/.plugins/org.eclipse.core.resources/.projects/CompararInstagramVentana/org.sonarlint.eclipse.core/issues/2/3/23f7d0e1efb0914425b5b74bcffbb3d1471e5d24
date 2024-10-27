@@ -1,0 +1,6 @@
+
+2
+java:S1220""Move this file to a named package.h
+n
+java:S1118
+":Add a private constructor to hide the implicit public one.b e2b2585420c23a53a2d608c9a1b8900dh

@@ -1,0 +1,14 @@
+package practica1;
+
+public class CostePersonal {
+
+  static float costeDelPersonal(Trabajador trabajadores[]) {
+    float costeFinal = 0;
+    Trabajador trabajador;
+    for(int i = 0; i<trabajadores.lenght;i++) {
+      
+    }
+    
+  }
+  
+}

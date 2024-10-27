@@ -1,0 +1,18 @@
+
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b a878ef6506016f6d2c37165e138d25fch
+2
+java:S1220""Move this file to a named package.h
+e	java:S106"+Replace this use of System.out by a logger.8éàÂ¶¤2b bb1c3f2ea781263d3a2bb92b06a2061fh
+|
+java:S1075"ARefactor your code to get this URI from a customizable parameter.8“À†·¤2b 9231338ca9d85b70e107c04344117066h
+|
+java:S1075"ARefactor your code to get this URI from a customizable parameter.8áˆ‡·¤2b 0d604d514f3696c6d3ca81658ef53683h
+e	java:S106"+Replace this use of System.out by a logger.8ýÁ‘·¤2b bb1c3f2ea781263d3a2bb92b06a2061fh
+k
+java:S1128"0Remove this unused import 'java.nio.file.Files'.8óðÛ·¤2b 26200eeaa3365f274f4a0e99a5b736bfh
+k
+java:S1128"0Remove this unused import 'java.nio.file.Paths'.8óðÛ·¤2b ff75993130b9da98c25048b1e31f590eh
+k
+java:S1128"0Remove this unused import 'java.util.ArrayList'.8óðÛ·¤2b 510ef3bd202c030c041eba1094753b66h
+`
+java:S1128"%Remove this unused import 'org.json'.8óðÛ·¤2b da29b73985cb3806299a6bab9bf051deh

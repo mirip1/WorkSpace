@@ -1,0 +1,17 @@
+
+Å	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 5137c47fcf2b98082efdb5613c230fdeh
+Å	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 71d32d3f6554edf5a48ecc734acc31fah
+}
+java:S1128"IRemove this unused import 'org.junit.jupiter.params.provider.EnumSource'.b 280836da95d70a4938fa909516161743h
+Å	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b b686a4bd9e1beb94d8156357e8d45ec0h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 39bf45060dec9f284624028684052672h
+b
+java:S1481@".Remove this unused "resultado" local variable.b c3a217d3df9d1f7ebea12fbb00f3a0a0h
+Å	java:S100Z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 635755ba34424865cd80bc19a0e3740fh
+Å	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 85f9635f53b80aec80beab16be77776fh
+Å	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b a9a1eb8fcf85055265abb98748a51e4ah
+_
+java:S5960"+Remove this assertion from production code.b 045fc4572d7605c3db8d92c53c2c9a57h
+Å	java:S100k"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b c95970bc08720f029c9ba665e4c526b4h
+Å	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 15dafaaa2035bfe9b3921c5342f8be5ch
+Å	java:S100z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 6e362244db20651c50c43502ea38eeb9h

@@ -1,0 +1,58 @@
+package hash;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
+public class Hash_SHA256 {
+  public static void main(String[] args) {
+//    Scanner sc = new Scanner(System.in);
+    String codigo = "SHA-256";
+    if (args.length==0 || args.length>2 ) {
+      throw new IllegalArgumentException("illo son 1 o 2 parámetros");
+    }else if (args.length != 1){
+      codigo = args[1];
+    }
+    
+   
+    try (FileInputStream in = new FileInputStream(args[0])){
+      MessageDigest encriptar = MessageDigest.getInstance(codigo);
+      encriptar.digest();
+
+      /* fragmentos leidos a la funcion resumen */
+      byte[] buffer = new byte[4096];
+//      FileInputStream in = new FileInputStream(args[0]);
+      int leidos = in.read(buffer, 0, 4096);
+      while ((leidos = in.read(buffer)) != 1) {
+        encriptar.update(buffer, 0, leidos); 
+      }
+      in.close();
+      byte[] resumen = encriptar.digest(); // Completar el resumen
+
+      // Mostrar resumen
+      System.out.println("RESUMEN:");
+      System.out.write(resumen, 0, resumen.length);
+      System.out.println();
+      
+      for (byte b : resumen) {
+        System.out.println(b);
+      }
+      
+      
+    }  catch (Exception e1) {
+      // TODO Auto-generated catch block
+      e1.printStackTrace();
+    } 
+    
+    
+    
+    
+    
+    
+  }
+
+}

@@ -1,0 +1,17 @@
+package main;
+
+import java.util.List;
+
+import models.Pelicula;
+import utils.Conexion;
+
+public class AppPelicula {
+
+  public static void main(String[] args) {
+    Conexion con = new Conexion();
+    List<Pelicula> peliculas = con.pillaPeliculas();
+    peliculas.forEach(System.out :: print);
+    
+  }
+
+}

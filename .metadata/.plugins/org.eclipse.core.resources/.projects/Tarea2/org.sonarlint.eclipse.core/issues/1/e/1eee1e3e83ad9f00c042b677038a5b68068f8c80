@@ -1,0 +1,8 @@
+
+€
+java:S1124
+"EReorder the modifiers to comply with the Java Language Specification.8««‹ï¢2b a81259cef8e959c624df1d456e5d3297h
+
+java:S1450"TRemove the "fecha" field and declare it as a local variable in the relevant methods.8·µ—ï¢2b 94ed416723ce619a79d9bf5ecb292718h
+
+java:S1450"SRemove the "hora" field and declare it as a local variable in the relevant methods.8·µ—ï¢2b 12c3de998cc272112872ea8a1c2f67b9h

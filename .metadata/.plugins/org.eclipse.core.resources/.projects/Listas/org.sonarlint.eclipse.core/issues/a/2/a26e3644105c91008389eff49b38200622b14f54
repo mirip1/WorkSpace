@@ -1,0 +1,19 @@
+
+f
+java:S1135"2Complete the task associated to this TODO comment.b 36364ec9aa2f0995d283c1c6a92d2e5ch
+l
+java:S2440	"1Remove this instantiation of "ListaEnterosUtils".8ÛÄìÏÖ1b b9ec79939fb233ec56f9f9242ded510ah
+p
+java:S2209"5Change this instance-reference to a static reference.8¿ñûÏÖ1b ecd2ec43c588ae012e3550fcc55d6009h
+e	java:S106"+Replace this use of System.out by a logger.8¿ñûÏÖ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+p
+java:S2209"5Change this instance-reference to a static reference.8¿ñûÏÖ1b ecd2ec43c588ae012e3550fcc55d6009h
+f
+java:S1481
+"+Remove this unused "lista2" local variable.8©ÆÿÏÖ1b 4a44da7cd724bd390641c2374e4950b9h
+j
+java:S3740
+"/Provide the parametrized type for this generic.8Ãé€ĞÖ1b 4ee29ca12c7d126654bd0e5275de6135h
+u
+java:S1854
+":Remove this useless assignment to local variable "lista2".8Ãé€ĞÖ1b bc2cefaf979e89d1028b194913fb840ch

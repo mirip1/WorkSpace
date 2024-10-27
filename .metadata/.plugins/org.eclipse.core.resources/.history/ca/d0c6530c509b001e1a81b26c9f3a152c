@@ -1,0 +1,16 @@
+package prog.unidad04.practica406.principal;
+import prog.unidad04.practica406.libreria.Fecha;
+
+public class VehiculosApp {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    Fecha fecha = new Fecha(2, 4, 1900);
+    Fecha fecha2 = new Fecha(2, 4, 1900);
+//  System.out.println( fecha.mesADias(12));
+//   System.out.println( fecha.esBisiestoAnyo(1936));
+//    System.out.println( fecha.anyoADias(1901));
+    System.out.println( fecha.diasEntre(fecha2));
+  }
+
+}

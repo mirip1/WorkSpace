@@ -1,0 +1,15 @@
+package practica1;
+
+public enum TipoTrabajador {
+  SUBDIRECTOR("Subdirector"),
+  DIRECTOR("Director");
+
+  TipoTrabajador(String nombre) {
+      this.nombre = nombre;
+  }
+
+  public String getNombre() {
+      return nombre;
+  }
+
+}

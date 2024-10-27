@@ -1,0 +1,11 @@
+
+e	java:S106"+Replace this use of System.err by a logger.8ÎÖóÏ¨2b af259b5629da223c99d853ddc8045589h
+e	java:S106"+Replace this use of System.err by a logger.8ËÕˆÐ¨2b af259b5629da223c99d853ddc8045589h
+v
+java:S1854";Remove this useless assignment to local variable "process".8–«§Ð¨2b b8cfe0f449b3b161e66e5225821dcd04h
+g
+java:S1481",Remove this unused "process" local variable.8–«§Ð¨2b 5075140835d0bc504791c76b04c33d2bh
+v
+java:S1854";Remove this useless assignment to local variable "process".8ï‘¶Ð¨2b b8cfe0f449b3b161e66e5225821dcd04h
+g
+java:S1481",Remove this unused "process" local variable.8ï‘¶Ð¨2b 5075140835d0bc504791c76b04c33d2bh

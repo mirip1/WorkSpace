@@ -1,0 +1,142 @@
+package inferfaztgraficamain;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import java.awt.BorderLayout;
+import java.awt.CardLayout;
+import java.awt.GridLayout;
+import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextField;
+import javax.swing.JScrollBar;
+
+public class MainSwing extends JFrame {
+
+  private static final long serialVersionUID = 1L;
+  private JPanel contentPane;
+  private JTextField textId;
+  private JTextField textTitulo;
+  private JTextField textDescripcion;
+  private JTextField textAnyo;
+  private JTextField textIdioma;
+  private JTextField textIdiomaOri;
+  private JTextField textDuracion;
+  private JTextField textRatio;
+  private JTextField textDuracionReal;
+  private JTextField textPuntuacion;
+  private JTextField textUltimaActualizacion;
+
+  /**
+   * Launch the application.
+   */
+  public static void main(String[] args) {
+    EventQueue.invokeLater(new Runnable() {
+      public void run() {
+        try {
+          MainSwing frame = new MainSwing();
+          frame.setVisible(true);
+        } catch (Exception e) {
+          e.printStackTrace();
+        }
+      }
+    });
+  }
+
+  /**
+   * Create the frame.
+   */
+  public MainSwing() {
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    setBounds(100, 100, 807, 671);
+    contentPane = new JPanel();
+    contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+
+    setContentPane(contentPane);
+    contentPane.setLayout(null);
+    
+    textId = new JTextField();
+    textId.setEnabled(false);
+    textId.setBounds(107, 64, 216, 20);
+    contentPane.add(textId);
+    textId.setColumns(10);
+    
+    textTitulo = new JTextField();
+    textTitulo.setEnabled(false);
+    textTitulo.setBounds(107, 110, 216, 20);
+    contentPane.add(textTitulo);
+    textTitulo.setColumns(10);
+    
+    textDescripcion = new JTextField();
+    textDescripcion.setEnabled(false);
+    textDescripcion.setBounds(107, 155, 216, 51);
+    contentPane.add(textDescripcion);
+    textDescripcion.setColumns(10);
+    
+    JScrollBar scrollBar = new JScrollBar();
+    scrollBar.setBounds(306, 155, 17, 48);
+    contentPane.add(scrollBar);
+    
+    textAnyo = new JTextField();
+    textAnyo.setEnabled(false);
+    textAnyo.setColumns(10);
+    textAnyo.setBounds(107, 229, 216, 20);
+    contentPane.add(textAnyo);
+    
+    textIdioma = new JTextField();
+    textIdioma.setEnabled(false);
+    textIdioma.setColumns(10);
+    textIdioma.setBounds(107, 270, 216, 20);
+    contentPane.add(textIdioma);
+    
+    textIdiomaOri = new JTextField();
+    textIdiomaOri.setEnabled(false);
+    textIdiomaOri.setColumns(10);
+    textIdiomaOri.setBounds(107, 315, 216, 20);
+    contentPane.add(textIdiomaOri);
+    
+    textDuracion = new JTextField();
+    textDuracion.setEnabled(false);
+    textDuracion.setColumns(10);
+    textDuracion.setBounds(107, 358, 216, 20);
+    contentPane.add(textDuracion);
+    
+    textRatio = new JTextField();
+    textRatio.setEnabled(false);
+    textRatio.setColumns(10);
+    textRatio.setBounds(107, 403, 216, 20);
+    contentPane.add(textRatio);
+    
+    textDuracionReal = new JTextField();
+    textDuracionReal.setEnabled(false);
+    textDuracionReal.setColumns(10);
+    textDuracionReal.setBounds(107, 450, 216, 20);
+    contentPane.add(textDuracionReal);
+    
+    textPuntuacion = new JTextField();
+    textPuntuacion.setEnabled(false);
+    textPuntuacion.setColumns(10);
+    textPuntuacion.setBounds(107, 496, 216, 20);
+    contentPane.add(textPuntuacion);
+    
+    textUltimaActualizacion = new JTextField();
+    textUltimaActualizacion.setEnabled(false);
+    textUltimaActualizacion.setColumns(10);
+    textUltimaActualizacion.setBounds(107, 544, 216, 20);
+    contentPane.add(textUltimaActualizacion);
+    
+    JLabel lblId = new JLabel("ID Pelicula");
+    lblId.setBounds(36, 67, 61, 14);
+    contentPane.add(lblId);
+    
+    JLabel lblTitulo = new JLabel("Titulo");
+    lblTitulo.setBounds(36, 113, 46, 14);
+    contentPane.add(lblTitulo);
+    
+    JLabel lblDescripcion = new JLabel("Descripcion");
+    lblDescripcion.setBounds(36, 155, 72, 14);
+    contentPane.add(lblDescripcion);
+  }
+}

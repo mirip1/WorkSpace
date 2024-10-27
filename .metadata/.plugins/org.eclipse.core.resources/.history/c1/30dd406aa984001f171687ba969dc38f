@@ -1,0 +1,33 @@
+package Util;
+
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.PBEKeySpec;
+
+
+public class Factoria {
+
+  
+  
+  public static SecretKey generateKey(String password, String salt) {
+    char[] pass =   password.toCharArray();
+    byte[] saltBytes =   salt.getBytes();
+    SecretKeyFactory keyFactory;
+    SecretKey secretKey = null;
+    try {
+      keyFactory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA256");
+      PBEKeySpec keySpec = new PBEKeySpec(pass, saltBytes, 10, 256);
+      secretKey = keyFactory.generateSecret(keySpec);
+//      System.out.println("key: " + new String(secretKey));
+      
+      
+    } catch (Exception e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
+
+    return  secretKey; 
+  }
+  
+}
+

@@ -1,0 +1,25 @@
+package Ej2;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.Scanner;
+
+public class TablaMultiplicarUnNumeroApp {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    Scanner scan = new Scanner(System.in);
+    String ruta = null;
+    if (args.length != 0) {
+      ruta = args[0];
+    }else {
+      System.out.println("Especifique la ruta de archivo: ");
+      ruta = scan.nextLine();
+    }
+    BufferedReader flujoTexto = new BufferedReader(new FileReader(ruta));
+    
+    
+    
+  }
+
+}

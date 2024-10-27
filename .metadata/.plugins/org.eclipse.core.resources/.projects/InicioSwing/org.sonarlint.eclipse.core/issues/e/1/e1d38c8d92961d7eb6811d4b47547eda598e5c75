@@ -1,0 +1,23 @@
+
+h
+java:S11996"-Extract this nested code block into a method.8„ë’ß¦2b f95b70fdc3088560732a5ac135644506h
+‘
+java:S1192Q"VDefine a constant instead of duplicating this literal "JetBrains Mono Medium" 4 times.8ÁÉ¥ß¦2b 356f527d3f6c49b798149abb927b3af2h
+h
+java:S1199<"-Extract this nested code block into a method.8‹…™ß¦2b f95b70fdc3088560732a5ac135644506h
+a
+java:S1199p"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+c
+java:S1604r"(Make this anonymous inner class a lambda8‹ïäß¦2b 65b17b751d67188db4a2eea102b1f843h
+c
+java:S1604"(Make this anonymous inner class a lambda8Ö÷à§2b 65b17b751d67188db4a2eea102b1f843h
+a
+java:S1199l"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S1199}"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+e
+java:S1948"*Make "clientes" transient or serializable.8ý¢Ô§2b 0670acdde4e1e38b56697bc77166b4efh
+”
+java:S2293h"YReplace the type specification in this constructor call with the diamond operator ("<>").8î‚›¬§2b a4f5c9920c2235bcf03341de5d2e2d58h
+”
+java:S2293d"YReplace the type specification in this constructor call with the diamond operator ("<>").8¹ª›¬§2b a4f5c9920c2235bcf03341de5d2e2d58h

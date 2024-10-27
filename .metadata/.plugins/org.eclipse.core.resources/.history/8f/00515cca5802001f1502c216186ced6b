@@ -1,0 +1,17 @@
+package practica1;
+
+public class Trabajador {
+
+  public int trab() {
+    return 0;
+  }
+  
+  public float getNom() {
+    return 0;
+  }
+  
+  public int masTrab() {
+    return 0;
+  }
+
+}

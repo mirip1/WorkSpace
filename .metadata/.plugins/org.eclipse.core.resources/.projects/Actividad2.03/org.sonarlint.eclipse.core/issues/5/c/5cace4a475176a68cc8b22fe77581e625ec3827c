@@ -1,0 +1,12 @@
+
+f
+java:S1135!"2Complete the task associated to this TODO comment.b 7070b9ee421ce52b0a94300bdc011420h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 23e8a4b4f7cc1898ef12b4e6e48852bbh
+n
+java:S1118":Add a private constructor to hide the implicit public one.b f50f59423b2e62ca100a09a320d0b598h
+W
+java:S5542*"Use a secure padding scheme.8ˇŸ∏Äß2b 2a4a727a13c06b739b40f3bb0ea6ff0dh
+W
+java:S55426"Use a secure padding scheme.8˜èﬂÄß2b 2a4a727a13c06b739b40f3bb0ea6ff0dh
+ú
+java:S1488:"aImmediately return this expression instead of assigning it to the temporary variable "resultado".8ËÇÔÄß2b 805d62dffd119ad76cee22de097e5718h

@@ -1,0 +1,16 @@
+
+e
+java:S2093%"*Change this "try" to a try-with-resources.8¶òÎË 2b 080f651e3fcca17df3a47c2cecfcb880h
+m
+java:S11354"2Complete the task associated to this TODO comment.8ÿ®ÏË 2b 7070b9ee421ce52b0a94300bdc011420h
+e	java:S106"+Replace this use of System.out by a logger.8ÌÙ¹øŸ2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8Í¢±øŸ2b bb1c3f2ea781263d3a2bb92b06a2061fh
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 0b39709eae3d8340a7a24189a18fe67dh
+€
+java:S22592"EA "NullPointerException" could be thrown; "bufferW" is nullable here.8¶òÎË 2b 32353480de0b112c08159ce7545ea3a5h
+m
+java:S1135/"2Complete the task associated to this TODO comment.8Úö—Ë 2b daf5e7d8f20e1b2a1944a8664ebc1ab5h
+ƒ
+java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.8Âû°Ë 2b b0391d52b50b55ffe70c34189b6df78ch
+e
+java:S2093"*Change this "try" to a try-with-resources.8ÀÖµøŸ2b 080f651e3fcca17df3a47c2cecfcb880h
