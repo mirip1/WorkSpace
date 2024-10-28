@@ -66,7 +66,7 @@ public class PantallaPrincipal extends JFrame {
     contentPane.add(panel, BorderLayout.NORTH);
     panel.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
 
-    JLabel lblTitulo = new JLabel("TITULO");
+    JLabel lblTitulo = new JLabel("Manejo Clientes");
     lblTitulo.setForeground(new Color(255, 255, 255));
     lblTitulo.setFont(new Font("Verdana Pro Semibold", Font.BOLD, 29));
     panel.add(lblTitulo);

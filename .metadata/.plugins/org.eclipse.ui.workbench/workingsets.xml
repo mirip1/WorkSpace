@@ -24,9 +24,11 @@
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1729492396336_10" label="Pedro" name="Pedro">
 <item elementID="=Actividad_1.07" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Actividad_1.06" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Actividad_1.7_Linux" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Actividad_1.05" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Actividad_1.07/src&lt;pcp.unidad1.relacion07_2{SumadorProdess.java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=CreacionHash" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=actividad107" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Actividad2.03" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Actividad2.04" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ProgramacionServicios" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>

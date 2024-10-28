@@ -6,20 +6,21 @@ public class Ejercicio1 {
 
   public static void main(String[] args) {
     
-    String[] comando = {"cmd", "/c", "xcopy", "C:\\Windows\\explorer.exe", "."};    
+//    String[] comando = {"cmd", "/c", "xcopy", "C:\\Windows\\explorer.exe", "."};    
+//    
+//    ProcessBuilder constructor = new ProcessBuilder(comando);
+//    try {
+//      Process proceso = constructor.start();
+//      
+//      
+//      
+//    } catch (IOException e) {
+//      // TODO Auto-generated catch block
+//      e.printStackTrace();
+//    }
+//    
     
-    ProcessBuilder constructor = new ProcessBuilder(comando);
-    try {
-      Process proceso = constructor.start();
-      
-      
-      
-    } catch (IOException e) {
-      // TODO Auto-generated catch block
-      e.printStackTrace();
-    }
-    
-    
+    System.out.println("PATH=" + System.getenv("PATH"));
 
     
     
