@@ -39,8 +39,8 @@
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1696507645546_4" label="Window Working Set" name="Aggregate for window 1696507645546"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701073820843_5" label="Window Working Set" name="Aggregate for window 1701073820843"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726571017512_6" label="Window Working Set" name="Aggregate for window 1726571017511"/>
+<mruList name="Nacho"/>
 <mruList name="Pedro"/>
 <mruList name="Enrique"/>
-<mruList name="Nacho"/>
 <mruList name="Java Main Sources"/>
 </workingSetManager>

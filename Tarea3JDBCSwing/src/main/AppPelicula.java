@@ -13,8 +13,8 @@ public class AppPelicula {
     List<Pelicula> peliculas = con.pillaPeliculas();
     List<Actor> actores = con.mostrarActores(1);
     peliculas.forEach(System.out :: println);
-//    actores.forEach(System.out :: println);
+//    actores.forEach(System.out :: println);º
     
-  }
+   }
 
 }
