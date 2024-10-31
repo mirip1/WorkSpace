@@ -47,6 +47,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="org.enrique"/>
 			<item value="conectarme"/>
 			<item value="hola.com"/>
 			<item value="hola"/>
@@ -55,6 +56,7 @@
 			<item value="Prueba"/>
 		</list>
 		<list key="artifactId">
+			<item value="PruebaFX"/>
 			<item value="server"/>
 			<item value="SeleniumPrueba"/>
 			<item value="hola2"/>
