@@ -14,6 +14,7 @@
 <item elementID="=Tarea6" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=RecursosPrimerExamen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Examen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=worldCRUB" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1728981044892_9" label="Enrique" name="Enrique">
 <item elementID="=PruebaFX" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -40,8 +41,8 @@
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1696507645546_4" label="Window Working Set" name="Aggregate for window 1696507645546"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701073820843_5" label="Window Working Set" name="Aggregate for window 1701073820843"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726571017512_6" label="Window Working Set" name="Aggregate for window 1726571017511"/>
-<mruList name="Enrique"/>
 <mruList name="Nacho"/>
+<mruList name="Enrique"/>
 <mruList name="Pedro"/>
 <mruList name="Java Main Sources"/>
 </workingSetManager>
