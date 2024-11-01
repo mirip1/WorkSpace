@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.wb.internal.swing.model.property.editor.font.FontDialog">
-		<item key="x" value="-1110"/>
-		<item key="y" value="238"/>
+		<item key="x" value="833"/>
+		<item key="y" value="273"/>
 		<item key="width" value="599"/>
 		<item key="height" value="635"/>
 	</section>
 	<section name="org.eclipse.wb.internal.swing.model.property.editor.icon.IconPropertyEditor$ImageDialog">
-		<item key="x" value="-1517"/>
+		<item key="x" value="0"/>
 		<item key="y" value="227"/>
 		<item key="width" value="1147"/>
 		<item key="height" value="714"/>

@@ -7,6 +7,7 @@ import java.util.List;
 
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
+import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -19,7 +20,7 @@ import javax.swing.table.TableRowSorter;
 import modelos.Cliente;
 import utils.ManejoCliente;
 
-public class ListarClientes extends JPanel {
+public class ListarClientes extends JDialog {
 
   private static final long serialVersionUID = 1L;
   private JTable table;
@@ -31,7 +32,8 @@ public class ListarClientes extends JPanel {
   public ListarClientes(ManejoCliente clientes) {
     
     this.clientes = clientes;
-    
+
+    setModal(true);
     clientes.mostrarCliente();
     
     JLabel lblListarClientes = new JLabel("LISTAR CLIENTES");

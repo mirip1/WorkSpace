@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="producto"/>
+		<item key="selection" value="Usuario"/>
 		<list key="findhistory">
+			<item value="Cliente"/>
 			<item value="cliente"/>
 			<item value="panel_1"/>
 			<item value="JsonExtractor"/>
@@ -15,9 +16,9 @@
 			<item value="arg"/>
 			<item value="actualizarListaClientes"/>
 			<item value="saveAll"/>
-			<item value="dni"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Usuario"/>
 			<item value="producto"/>
 			<item value="URLTXT"/>
 			<item value="nif"/>
@@ -25,7 +26,6 @@
 			<item value="anyoCorrecto"/>
 			<item value="dividi"/>
 			<item value=""/>
-			<item value="multiplica"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
