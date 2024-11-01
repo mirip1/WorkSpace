@@ -22,6 +22,17 @@ public class ManejoUsuario {
     usuarios = new HashMap<>();
   }
 
+  
+  /**
+   * metodo que devuelve un usuario
+   * @param email
+   * @return
+   */
+  public Usuario devuelveUsuario(String email) {
+    return usuarios.get(email);
+  }
+  
+  
   /**
    * Da de alta a un Usuario
    * 

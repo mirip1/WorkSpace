@@ -5,6 +5,8 @@ public class Clase {
   private String nombreClase;
   private String profesor;
   private String turno;
+  private boolean reservada;
+
 
   /**
    * Constructor
@@ -18,6 +20,7 @@ public class Clase {
       this.nombreClase = nombreClase;
       this.profesor = profesor;
       this.turno = turno;
+      this.reservada = false;
     } else {
 
       throw new IllegalArgumentException();
@@ -36,6 +39,10 @@ public class Clase {
    */
   public void setNombreClase(String nombreClase) {
     this.nombreClase = nombreClase;
+  }
+  
+  public boolean isReservada() {
+    return reservada;
   }
 
   /**
@@ -64,6 +71,13 @@ public class Clase {
    */
   public void setTurno(String turno) {
     this.turno = turno;
+  }
+
+  /**
+   * @param reservada the reservada to set
+   */
+  public void setReservada(boolean reservada) {
+    this.reservada = reservada;
   }
 
 }

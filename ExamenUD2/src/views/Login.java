@@ -20,6 +20,7 @@ import javax.swing.SwingConstants;
 import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
 
+import models.Usuario;
 import utils.ManejoClase;
 import utils.ManejoUsuario;
 
@@ -31,6 +32,8 @@ public class Login extends JFrame {
   private JTextField textUsuario;
   private JTextField textCont;
   private ManejoClase clases;
+  private Usuario usuario;
+  
 
   /**
    * Create the frame.
@@ -103,10 +106,9 @@ public class Login extends JFrame {
     JButton btnNewButton = new JButton("Inicia Sesión");
     btnNewButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        PantallaPrincipal pantalla = new PantallaPrincipal(usuarios, clases);
-        pantalla.setVisible(true);
+
         log_in();
-        dispose();
+        
       }
     });
     btnNewButton.setBackground(new Color(28, 113, 216));
@@ -176,8 +178,9 @@ public class Login extends JFrame {
     if (usuarios.existeUsuario(textUsuario.getText())) {
       if (usuarios.coincideCont(textUsuario.getText(), textCont.getText())) {
         
-        PantallaPrincipal pantalla = new PantallaPrincipal(usuarios, clases);
+        PantallaPrincipal pantalla = new PantallaPrincipal(usuarios, clases, usuarios.devuelveUsuario(textUsuario.getText()));
         pantalla.setVisible(true);
+        dispose();
         
       }else {
         JOptionPane.showMessageDialog(null, "Contraseña incorrecta para este usuario");

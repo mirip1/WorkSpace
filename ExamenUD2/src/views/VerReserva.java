@@ -13,35 +13,34 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
 
-import models.Cliente;
+import models.Reserva;
 import models.Usuario;
+import utils.ManejoClase;
 import utils.ManejoUsuario;
+import javax.swing.JTextField;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class ListarClientes extends JDialog {
+public class VerReserva extends JDialog {
 
   private static final long serialVersionUID = 1L;
   private final JPanel contentPanel = new JPanel();
   private JTable table;
   private DefaultTableModel model;
-  private ManejoUsuario clientes;
+  private ManejoClase clases;
   private TableRowSorter sorter;
-  private JTextField txtApellidos;
-
-
+  private JTextField textApellidos;
 
   /**
    * Create the dialog.
    */
-  public ListarClientes(ManejoUsuario clientes) {
+  public VerReserva(ManejoClase clases) {
 
-    this.clientes = clientes;
+    this.clases = clases;
 
     setBounds(100, 100, 800, 515);
     getContentPane().setLayout(new BorderLayout());
@@ -58,7 +57,7 @@ public class ListarClientes extends JDialog {
         lblListarClientes.setFont(new Font("Dialog", Font.BOLD, 17));
         lblListarClientes.setForeground(new Color(255, 255, 255));
         panel.add(lblListarClientes);
-        
+
       }
     }
     {
@@ -68,13 +67,13 @@ public class ListarClientes extends JDialog {
         model = new DefaultTableModel();
         table = new JTable();
         table.setModel(model);
-        model.addColumn("Nombre");
-        model.addColumn("Apellidos");
-        model.addColumn("Fecha Nacimiento");
-        model.addColumn("Email");
+        model.addColumn("Cliente");
+        model.addColumn("Clase");
+        model.addColumn("Turno");
+        model.addColumn("Fecha");
 
         scrollPane.setViewportView(table);
-        llenarTabla(clientes.pasarALista());
+        llenarTabla(clases.getReservas());
 
         sorter = new TableRowSorter<>((DefaultTableModel) table.getModel());
         table.setRowSorter(sorter);
@@ -85,15 +84,15 @@ public class ListarClientes extends JDialog {
       buttonPane.setLayout(new FlowLayout(FlowLayout.RIGHT));
       getContentPane().add(buttonPane, BorderLayout.SOUTH);
       {
-        txtApellidos = new JTextField();
-        buttonPane.add(txtApellidos);
-        txtApellidos.setColumns(10);
+        textApellidos = new JTextField();
+        buttonPane.add(textApellidos);
+        textApellidos.setColumns(10);
       }
       {
         JButton okButton = new JButton("Filtrar por apellido");
         okButton.addActionListener(new ActionListener() {
           public void actionPerformed(ActionEvent e) {
-            filtrarTabla(clientes.pasarALista());
+            filtrarTabla(clases.getReservas());
           }
         });
         okButton.setActionCommand("OK");
@@ -109,43 +108,45 @@ public class ListarClientes extends JDialog {
    * 
    * @param list
    */
-  private void llenarTabla(List<Usuario> list) {
+  private void llenarTabla(List<Reserva> list) {
     model.setRowCount(0);
     SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 
-    for (Usuario c : list) {
-      if (c.isCliente()) {
+    for (Reserva reserva : list) {
+
 
         Object[] fila = new Object[6];
-        fila[0] = c.getNombre();
-        fila[1] = c.getApellidos();
-        fila[2] = format.format(c.getFechaNacimiento());
-        fila[3] = c.getEmail();
+        fila[0] = reserva.getCliente().getNombre();
+        fila[1] = reserva.getCliente().getApellidos();
+        fila[2] = format.format(reserva.getFecha());
+        fila[3] = reserva.getTurno();
         model.addRow(fila);
 
       }
 
-    }
+    
 
   }
+  
+  
 
-  private void filtrarTabla(List<Usuario> clientes) {
-    String apellidosFilter = txtApellidos.getText().toLowerCase();
+  private void filtrarTabla(List<Reserva> list) {
+    String apellidosFilter = textApellidos.getText().toLowerCase();
 
     // Limpiar el modelo de la tabla
     model.setRowCount(0);
 
     // Iterar sobre los clientes y agregar los que coincidan con los filtros
-    for (Usuario cliente : clientes) {
+    for (Reserva reserva : list) {
       boolean matches = true;
 
-      if (!apellidosFilter.isEmpty() && !cliente.getApellidos().toLowerCase().contains(apellidosFilter)) {
+      if (!apellidosFilter.isEmpty() && !reserva.getCliente().getApellidos().toLowerCase().contains(apellidosFilter)) {
         matches = false;
       }
 
       if (matches) {
-        String[] rowData = { cliente.getNombre(), cliente.getApellidos(), String.valueOf(cliente.getFechaNacimiento()),
-            cliente.getEmail() };
+        String[] rowData = { reserva.getCliente().getNombre(), reserva.getCliente().getApellidos(), String.valueOf(reserva.getCliente().getFechaNacimiento()),
+            reserva.getCliente().getEmail() };
         model.addRow(rowData);
       }
     }

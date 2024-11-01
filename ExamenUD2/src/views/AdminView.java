@@ -22,7 +22,7 @@ public class AdminView extends JPanel {
   /**
    * Create the panel.
    */
-  public AdminView(ManejoUsuario usuarios, ManejoClase clases) {
+  public AdminView(ManejoUsuario usuarios, ManejoClase clases, PantallaPrincipal pantalla) {
 
     this.usuarios = usuarios;
     this.clases = clases;
@@ -32,8 +32,8 @@ public class AdminView extends JPanel {
     lblAddclase.addMouseListener(new MouseAdapter() {
       @Override
       public void mouseClicked(MouseEvent e) {
-        ListarClientes listarClientes = new ListarClientes(usuarios);
-        listarClientes.setVisible(true);
+        NuevaClase addClase = new NuevaClase(clases);
+        addClase.setVisible(true);
       }
     });
     lblAddclase.setIcon(new ImageIcon(AdminView.class.getResource("/resources/addClase.png")));
@@ -43,21 +43,41 @@ public class AdminView extends JPanel {
     lblVerClientes.addMouseListener(new MouseAdapter() {
       @Override
       public void mouseClicked(MouseEvent e) {
+        ListarClientes listarClientes = new ListarClientes(usuarios);
+        listarClientes.setVisible(true);
         
       }
     });
     lblVerClientes.setIcon(new ImageIcon(AdminView.class.getResource("/resources/listarUsuarios.png")));
     
     JLabel lblCerrarSesin = new JLabel("Cerrar Sesión");
+    lblCerrarSesin.addMouseListener(new MouseAdapter() {
+      @Override
+      public void mouseClicked(MouseEvent e) {
+        
+        Login login = new Login(usuarios, clases);
+        login.setVisible(true);
+        pantalla.dispose();
+        
+      }
+    });
     lblCerrarSesin.setIcon(new ImageIcon(AdminView.class.getResource("/resources/cierreSesion.png")));
     
     JLabel lblVerReservas = new JLabel("Ver Reservas");
+    lblVerReservas.addMouseListener(new MouseAdapter() {
+      @Override
+      public void mouseClicked(MouseEvent e) {
+        VerReserva verReserva = new VerReserva(clases);
+        verReserva.setVisible(true);
+        
+      }
+    });
     lblVerReservas.setIcon(new ImageIcon(AdminView.class.getResource("/resources/listarReservas.png")));
     GroupLayout groupLayout = new GroupLayout(this);
     groupLayout.setHorizontalGroup(
-      groupLayout.createParallelGroup(Alignment.LEADING)
-        .addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
-          .addContainerGap(53, Short.MAX_VALUE)
+      groupLayout.createParallelGroup(Alignment.TRAILING)
+        .addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
+          .addGap(121)
           .addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
             .addGroup(groupLayout.createSequentialGroup()
               .addComponent(lblAddclase, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)
@@ -67,13 +87,12 @@ public class AdminView extends JPanel {
               .addComponent(lblVerClientes, GroupLayout.PREFERRED_SIZE, 154, GroupLayout.PREFERRED_SIZE)
               .addGap(166)
               .addComponent(lblCerrarSesin, GroupLayout.PREFERRED_SIZE, 165, GroupLayout.PREFERRED_SIZE)))
-          .addGap(45))
+          .addContainerGap(141, Short.MAX_VALUE))
     );
     groupLayout.setVerticalGroup(
       groupLayout.createParallelGroup(Alignment.LEADING)
         .addGroup(groupLayout.createSequentialGroup()
-          .addGap(100)
-          .addPreferredGap(ComponentPlacement.RELATED)
+          .addGap(99)
           .addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
             .addComponent(lblAddclase, GroupLayout.PREFERRED_SIZE, 64, GroupLayout.PREFERRED_SIZE)
             .addComponent(lblVerReservas, GroupLayout.PREFERRED_SIZE, 64, GroupLayout.PREFERRED_SIZE))
@@ -81,10 +100,13 @@ public class AdminView extends JPanel {
           .addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
             .addComponent(lblVerClientes, GroupLayout.PREFERRED_SIZE, 64, GroupLayout.PREFERRED_SIZE)
             .addComponent(lblCerrarSesin, GroupLayout.PREFERRED_SIZE, 64, GroupLayout.PREFERRED_SIZE))
-          .addContainerGap(124, Short.MAX_VALUE))
+          .addContainerGap(122, Short.MAX_VALUE))
     );
     setLayout(groupLayout);
 
   }
+  
+  
+  
 
 }

@@ -30,7 +30,7 @@ public class PantallaPrincipal extends JFrame {
   private AltaProducto altaProducto;
   private BajaClientes bajaClientes;
   private BajaProductos bajaProductos;
-  private ListarClientes listarClientes;
+  private JPanel listarClientes;
   private ListarProductos listarProductos;
   private ManejoCliente clientes = new ManejoCliente();
   private ManejoProductos productos = new ManejoProductos();
