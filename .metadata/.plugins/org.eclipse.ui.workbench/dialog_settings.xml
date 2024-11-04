@@ -14,7 +14,7 @@
 			<item key="DIALOG_Y_ORIGIN" value="202"/>
 			<item key="DIALOG_WIDTH" value="525"/>
 			<item key="DIALOG_HEIGHT" value="500"/>
-			<item key="DIALOG_FONT_NAME" value="1|Noto Sans|10.0|0|GTK|1|"/>
+			<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
 		</section>
 	</section>
 	<section name="org.eclipse.ui.preferences.keysPreferencePage">
@@ -40,10 +40,10 @@
 		</section>
 	</section>
 	<section name="WorkbenchPreferenceDialog.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="11"/>
-		<item key="DIALOG_Y_ORIGIN" value="0"/>
-		<item key="DIALOG_WIDTH" value="1229"/>
-		<item key="DIALOG_HEIGHT" value="987"/>
-		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|10.0|0|GTK|1|"/>
+		<item key="DIALOG_X_ORIGIN" value="477"/>
+		<item key="DIALOG_Y_ORIGIN" value="69"/>
+		<item key="DIALOG_WIDTH" value="915"/>
+		<item key="DIALOG_HEIGHT" value="955"/>
+		<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
 	</section>
 </section>

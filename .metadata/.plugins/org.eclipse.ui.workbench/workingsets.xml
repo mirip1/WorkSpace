@@ -37,14 +37,15 @@
 <item elementID="=Actividad2.04" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ProgramacionServicios" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Actividad2.05" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Práctica Obligatoria Multiproceso" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1695123078434_2" label="Window Working Set" name="Aggregate for window 1695123078434"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1695125305713_3" label="Window Working Set" name="Aggregate for window 1695125305713"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1696507645546_4" label="Window Working Set" name="Aggregate for window 1696507645546"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701073820843_5" label="Window Working Set" name="Aggregate for window 1701073820843"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726571017512_6" label="Window Working Set" name="Aggregate for window 1726571017511"/>
-<mruList name="Enrique"/>
 <mruList name="Pedro"/>
+<mruList name="Enrique"/>
 <mruList name="Nacho"/>
 <mruList name="Java Main Sources"/>
 </workingSetManager>

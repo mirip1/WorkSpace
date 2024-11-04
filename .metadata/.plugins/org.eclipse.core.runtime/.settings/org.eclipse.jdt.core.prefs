@@ -1,7 +1,10 @@
 eclipse.preferences.version=1
-org.eclipse.jdt.core.classpathVariable.JRE_LIB=/run/user/1000/doc/af276733/java-17-openjdk-amd64/lib/jrt-fs.jar
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=/app/eclipse/
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=/usr/lib/jvm/java-21-openjdk-amd64/lib/jrt-fs.jar
 org.eclipse.jdt.core.classpathVariable.JRE_SRC=
 org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=/app/eclipse/plugins/org.junit_4.13.2.v20230809-1000.jar
+org.eclipse.jdt.core.classpathVariable.M2_REPO=/home/miguel/.m2/repository
 org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=17
