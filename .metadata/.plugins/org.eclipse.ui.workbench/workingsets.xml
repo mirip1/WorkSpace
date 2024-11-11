@@ -15,6 +15,7 @@
 <item elementID="=RecursosPrimerExamen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Examen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=worldCRUB" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=hibernate" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1728981044892_9" label="Enrique" name="Enrique">
 <item elementID="=PruebaFX" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -38,6 +39,8 @@
 <item elementID="=ProgramacionServicios" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Actividad2.05" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Práctica Obligatoria Multiproceso" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Espresiones_Regulares" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=hacking-etico" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1695123078434_2" label="Window Working Set" name="Aggregate for window 1695123078434"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1695125305713_3" label="Window Working Set" name="Aggregate for window 1695125305713"/>
@@ -45,7 +48,7 @@
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701073820843_5" label="Window Working Set" name="Aggregate for window 1701073820843"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726571017512_6" label="Window Working Set" name="Aggregate for window 1726571017511"/>
 <mruList name="Pedro"/>
-<mruList name="Enrique"/>
 <mruList name="Nacho"/>
+<mruList name="Enrique"/>
 <mruList name="Java Main Sources"/>
 </workingSetManager>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="ShowViewDialog">
-		<item key="ShowViewDialog.STORE_SELECTED_VIEW_ID" value="org.eclipse.ui.console.ConsoleView"/>
+		<item key="ShowViewDialog.STORE_SELECTED_VIEW_ID" value="com.genuitec.eclipse.icons.designer.ui.views.IconsDesignerView"/>
 		<item key="DIALOG_X_ORIGIN" value="773"/>
 		<item key="DIALOG_Y_ORIGIN" value="200"/>
 		<item key="DIALOG_WIDTH" value="356"/>
@@ -9,6 +9,7 @@
 		<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="General"/>
+			<item value="DevStyle"/>
 		</list>
 	</section>
 </section>

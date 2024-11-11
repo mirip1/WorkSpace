@@ -9,8 +9,7 @@ public class Esclavo {
     
     Scanner scanner = new Scanner(System.in);
     
-    // Para probarlo le voy a pasar los argumentos por parametros esto lo cambiaré
-    // confomre avance el programa
+
     int num1 = scanner.nextInt();
     int num2 = scanner.nextInt();
     

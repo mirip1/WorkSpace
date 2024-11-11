@@ -411,8 +411,8 @@
 		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|10.0|0|GTK|1|"/>
 	</section>
 	<section name="JavaProjectWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="640"/>
-		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_X_ORIGIN" value="298"/>
+		<item key="DIALOG_Y_ORIGIN" value="221"/>
 		<item key="DIALOG_WIDTH" value="638"/>
 		<item key="DIALOG_HEIGHT" value="720"/>
 		<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
