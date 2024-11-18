@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Usuario"/>
+		<item key="selection" value="es"/>
 		<list key="findhistory">
+			<item value="err"/>
 			<item value="Cliente"/>
 			<item value="cliente"/>
 			<item value="panel_1"/>
@@ -15,7 +16,6 @@
 			<item value="archivoTexto"/>
 			<item value="arg"/>
 			<item value="actualizarListaClientes"/>
-			<item value="saveAll"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Usuario"/>
