@@ -1,3 +1,5 @@
-
-Vehiculo(String matricula, Fecha fechaMatriculacion)
-Constructor protegido para que no pueda usarse para crear objetos desde clases que no hereden de esta
+<dependency>
+    <groupId>com.mysql</groupId>
+    <artifactId>mysql-connector-j</artifactId>
+    <version>x.y.z</version>
+</dependency>

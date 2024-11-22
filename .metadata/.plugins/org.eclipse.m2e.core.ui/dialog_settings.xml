@@ -28,10 +28,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.enrique"/>
 		</list>
 		<list key="groupId">
-			<item value="org.enrique"/>
 		</list>
 		<list key="artifactId">
 		</list>
@@ -49,11 +47,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="hola"/>
 			<item value="org.enrique"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Hbernaerelaciones"/>
+			<item value="Tarea1.Comparando "/>
 			<item value="PruebaFX"/>
 		</list>
 		<list key="projectNameTemplate">

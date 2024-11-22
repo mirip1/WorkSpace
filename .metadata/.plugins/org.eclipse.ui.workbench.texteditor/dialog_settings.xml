@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="es"/>
+		<item key="selection" value="Utils"/>
 		<list key="findhistory">
+			<item value="Validation"/>
 			<item value="err"/>
 			<item value="Cliente"/>
 			<item value="cliente"/>
@@ -15,9 +16,9 @@
 			<item value="JsonExtractor"/>
 			<item value="archivoTexto"/>
 			<item value="arg"/>
-			<item value="actualizarListaClientes"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Utils"/>
 			<item value="Usuario"/>
 			<item value="producto"/>
 			<item value="URLTXT"/>
@@ -25,7 +26,6 @@
 			<item value="Motocicleta"/>
 			<item value="anyoCorrecto"/>
 			<item value="dividi"/>
-			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
