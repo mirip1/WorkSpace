@@ -40,7 +40,7 @@ public class Restaurante implements Serializable{
     @JoinColumn(name = "cod_localidad")
     private Localidad localidad;
 
-    // Constructor vacío y con parámetros, Getters y Setters
+    
     public Restaurante() {}
 
   public Restaurante(String codRest, String nombre, String licenciaFiscal, String domicilio, java.sql.Date fechaApertura, String horario, Localidad localidad) {
