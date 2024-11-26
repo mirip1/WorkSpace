@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="Utils"/>
 		<list key="findhistory">
+			<item value="HiloPrimo"/>
 			<item value="Validation"/>
 			<item value="err"/>
 			<item value="Cliente"/>
@@ -15,7 +16,6 @@
 			<item value="panel_1"/>
 			<item value="JsonExtractor"/>
 			<item value="archivoTexto"/>
-			<item value="arg"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Utils"/>
