@@ -364,16 +364,16 @@
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
 		<item key="DIALOG_X_ORIGIN" value="1106"/>
 		<item key="DIALOG_Y_ORIGIN" value="129"/>
-		<item key="DIALOG_WIDTH" value="590"/>
-		<item key="DIALOG_HEIGHT" value="824"/>
-		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|10.0|0|GTK|1|"/>
+		<item key="DIALOG_WIDTH" value="605"/>
+		<item key="DIALOG_HEIGHT" value="784"/>
+		<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
 		<item key="DIALOG_X_ORIGIN" value="630"/>
 		<item key="DIALOG_Y_ORIGIN" value="9"/>
-		<item key="DIALOG_WIDTH" value="678"/>
-		<item key="DIALOG_HEIGHT" value="877"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_WIDTH" value="522"/>
+		<item key="DIALOG_HEIGHT" value="806"/>
+		<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
 	</section>
 	<section name="OverrideMethodDialog">
 		<item key="showtypes" value="true"/>
@@ -381,9 +381,9 @@
 	<section name="DialogBounds_OverrideMethodDialog">
 		<item key="DIALOG_X_ORIGIN" value="640"/>
 		<item key="DIALOG_Y_ORIGIN" value="79"/>
-		<item key="DIALOG_WIDTH" value="597"/>
-		<item key="DIALOG_HEIGHT" value="627"/>
-		<item key="DIALOG_FONT_NAME" value="1|Noto Sans|10.0|0|GTK|1|"/>
+		<item key="DIALOG_WIDTH" value="614"/>
+		<item key="DIALOG_HEIGHT" value="598"/>
+		<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
 	</section>
 	<section name="DialogBounds_AddDelegateMethodsDialog">
 		<item key="DIALOG_X_ORIGIN" value="624"/>
@@ -393,8 +393,8 @@
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="659"/>
-		<item key="DIALOG_Y_ORIGIN" value="16"/>
+		<item key="DIALOG_X_ORIGIN" value="647"/>
+		<item key="DIALOG_Y_ORIGIN" value="163"/>
 		<item key="DIALOG_WIDTH" value="619"/>
 		<item key="DIALOG_HEIGHT" value="727"/>
 		<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
@@ -418,5 +418,7 @@
 		<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
 	</section>
 	<section name="RenameInformationPopup">
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
 	</section>
 </section>
