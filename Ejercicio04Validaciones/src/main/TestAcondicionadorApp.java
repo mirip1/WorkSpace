@@ -58,6 +58,7 @@ public class TestAcondicionadorApp {
 
   private static boolean assertIgual(String cadena1, String cadena2, String metodo) {
     if (!cadena1.equals(cadena2)) {
+      System.out.println(cadena1);
       System.out.println(cadena2);
       System.err.println("Error en " + metodo);
       return false;
