@@ -6,13 +6,19 @@
 	<session-factory>
 		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 		<property name="hibernate.connection.password">yolo</property>
-		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/prueba2?sslMode=DISABLED&amp;serverTimezone=UTC</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/restaurante?sslMode=DISABLED&amp;serverTimezone=UTC</property>
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.default_schema">world</property>
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="hibernate.show_sql">true</property>
-		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="hibernate.hbm2ddl.auto">validate</property>
 
-		<mapping class="models.Superusuario" />
+		<mapping class="models.Localidad" />
+		<mapping class="models.Existencias" />
+		<mapping class="models.Restaurante" />
+		<mapping class="models.RestEmpleado" />
+		<mapping class="models.RestEmpleadoId" />
+		<mapping class="models.Titular" />
+		<mapping class="models.Empleado" />
 	</session-factory>
 </hibernate-configuration>

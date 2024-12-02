@@ -1,111 +1,155 @@
 package models;
 
-import java.io.Serializable;
-import java.sql.Date;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
-import jakarta.persistence.Temporal;
-import jakarta.persistence.TemporalType;
+import jakarta.persistence.OneToMany;
 
-@Entity
-@Table(name = "restaurante")
-public class Restaurante implements Serializable{
+@Entity(name="restaurante")
+public class Restaurante implements java.io.Serializable {
 
-    @Id
-    @Column(name = "cod_rest", nullable = false)
-    private String codRest;
+	@Id
+	@Column(name="cod_rest", columnDefinition = "char")
+	private String codRest;
+	@ManyToOne
+	@JoinColumn(name="cod_localidad")
+	private Localidad localidad;
+	@Column
+	private String nombre;
+	@Column(name="licencia_fiscal", columnDefinition = "char")
+	private String licenciaFiscal;
+	@Column
+	private String domicilio;
+	@Column(name="fecha_apertura", columnDefinition = "date")
+	private Date fechaApertura;
+	@Column
+	private String horario;
+	
+	@OneToMany(mappedBy="restaurante",cascade= CascadeType.ALL)
+	//@OneToMany(mappedBy="id.restaurante",cascade= CascadeType.ALL)
+	private Set<RestEmpleado> restEmpleados = new HashSet<RestEmpleado>(0);
+	@OneToMany(mappedBy="restaurante",cascade= CascadeType.ALL)
+	private Set<Titular> titulars = new HashSet<Titular>(0);
+	@OneToMany(mappedBy="restaurante",cascade= CascadeType.ALL)
+	private Set<Existencias> existenciases = new HashSet<Existencias>(0);
 
-    @Column(name = "nombre", nullable = false)
-    private String nombre;
+	public Restaurante() {
+	}
 
-    @Column(name = "licencia_fiscal", nullable = false)
-    private String licenciaFiscal;
+	public Restaurante(String codRest, String nombre, String licenciaFiscal, Date fechaApertura, String horario) {
+		this.codRest = codRest;
+		this.nombre = nombre;
+		this.licenciaFiscal = licenciaFiscal;
+		this.fechaApertura = fechaApertura;
+		this.horario = horario;
+	}
 
-    @Column(name = "domicilio")
-    private String domicilio;
+	public Restaurante(String codRest, Localidad localidad, String nombre, String licenciaFiscal, String domicilio,
+			Date fechaApertura, String horario, Set<RestEmpleado> restEmpleados, Set<Titular> titulars, Set<Existencias> existenciases) {
+		this.codRest = codRest;
+		this.localidad = localidad;
+		this.nombre = nombre;
+		this.licenciaFiscal = licenciaFiscal;
+		this.domicilio = domicilio;
+		this.fechaApertura = fechaApertura;
+		this.horario = horario;
+		this.restEmpleados = restEmpleados;
+		this.titulars = titulars;
+		this.existenciases = existenciases;
+	}
 
-    @Column(name = "fecha_apertura")
-    @Temporal(TemporalType.DATE)
-    private Date fechaApertura;
+	public String getCodRest() {
+		return this.codRest;
+	}
 
-    @Column(name = "horario", nullable = false)
-    private String horario;
+	public void setCodRest(String codRest) {
+		this.codRest = codRest;
+	}
 
-    @ManyToOne
-    @JoinColumn(name = "cod_localidad")
-    private Localidad localidad;
+	public Localidad getLocalidad() {
+		return this.localidad;
+	}
 
-    
-    public Restaurante() {}
+	public void setLocalidad(Localidad localidad) {
+		this.localidad = localidad;
+	}
 
-  public Restaurante(String codRest, String nombre, String licenciaFiscal, String domicilio, java.sql.Date fechaApertura, String horario, Localidad localidad) {
-      this.codRest = codRest;
-      this.nombre = nombre;
-      this.licenciaFiscal = licenciaFiscal;
-      this.domicilio = domicilio;
-      this.fechaApertura = fechaApertura;
-      this.horario = horario;
-      this.localidad = localidad;
-  }
+	public String getNombre() {
+		return this.nombre;
+	}
 
-  public String getCodRest() {
-      return codRest;
-  }
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
 
-  public void setCodRest(String codRest) {
-      this.codRest = codRest;
-  }
+	public String getLicenciaFiscal() {
+		return this.licenciaFiscal;
+	}
 
-  public String getNombre() {
-      return nombre;
-  }
+	public void setLicenciaFiscal(String licenciaFiscal) {
+		this.licenciaFiscal = licenciaFiscal;
+	}
 
-  public void setNombre(String nombre) {
-      this.nombre = nombre;
-  }
+	public String getDomicilio() {
+		return this.domicilio;
+	}
 
-  public String getLicenciaFiscal() {
-      return licenciaFiscal;
-  }
+	public void setDomicilio(String domicilio) {
+		this.domicilio = domicilio;
+	}
 
-  public void setLicenciaFiscal(String licenciaFiscal) {
-      this.licenciaFiscal = licenciaFiscal;
-  }
+	public Date getFechaApertura() {
+		return this.fechaApertura;
+	}
 
-  public String getDomicilio() {
-      return domicilio;
-  }
+	public void setFechaApertura(Date fechaApertura) {
+		this.fechaApertura = fechaApertura;
+	}
 
-  public void setDomicilio(String domicilio) {
-      this.domicilio = domicilio;
-  }
+	public String getHorario() {
+		return this.horario;
+	}
 
-  public java.sql.Date getFechaApertura() {
-      return fechaApertura;
-  }
+	public void setHorario(String horario) {
+		this.horario = horario;
+	}
 
-  public void setFechaApertura(java.sql.Date fechaApertura) {
-      this.fechaApertura = fechaApertura;
-  }
+	public Set getRestEmpleados() {
+		return this.restEmpleados;
+	}
 
-  public String getHorario() {
-      return horario;
-  }
+	public void setRestEmpleados(Set<RestEmpleado> restEmpleados) {
+		this.restEmpleados = restEmpleados;
+	}
 
-  public void setHorario(String horario) {
-      this.horario = horario;
-  }
+	public Set getTitulars() {
+		return this.titulars;
+	}
 
-  public Localidad getCodLocalidad() {
-      return localidad;
-  }
+	public void setTitulars(Set<Titular> titulars) {
+		this.titulars = titulars;
+	}
 
-  public void setCodLocalidad(Localidad localidad) {
-      this.localidad = localidad;
-  }
+	public Set getExistenciases() {
+		return this.existenciases;
+	}
+
+	public void setExistenciases(Set<Existencias> existenciases) {
+		this.existenciases = existenciases;
+	}
+
+	@Override
+	public String toString() {
+		return "Restaurante [codRest=" + codRest + ", localidad=" + localidad + ", nombre=" + nombre
+				+ ", licenciaFiscal=" + licenciaFiscal + ", domicilio=" + domicilio + ", fechaApertura=" + fechaApertura
+				+ ", horario=" + horario + "]";
+	}
+
 }
