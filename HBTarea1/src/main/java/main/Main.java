@@ -26,6 +26,7 @@ public class Main {
         usu = session.merge(usu);
         cont++;
         
+        
         if(cont % 10 == 0 ){
           session.flush();
           session.clear();
@@ -35,8 +36,17 @@ public class Main {
         }
         
       }
-      session.getTransaction().commit();
       
+      System.out.println(session.get(Superusuario.class, 1));
+      
+      Superusuario usuario = session.get(Superusuario.class, 1);
+      
+      session.remove(usuario);
+      
+      System.out.println(session.get(Superusuario.class, 1));
+      
+      
+      session.getTransaction().commit();
       // Cierro Session y SessionFactory
       Utils.closeSession();
       

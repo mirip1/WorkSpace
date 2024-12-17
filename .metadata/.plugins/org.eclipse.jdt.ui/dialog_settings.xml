@@ -32,7 +32,7 @@
 		<item key="layout" value="2"/>
 		<item key="rootMode" value="1"/>
 		<item key="linkWithEditor" value="false"/>
-		<item key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Nacho&quot;&gt;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0A;&lt;xmlDefinedFilters&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;bndtools.jareditor.tempfiles.packageexplorer.filter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.DeprecatedMembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0A;&lt;/customFilters&gt;&#x0A;&lt;/packageExplorer&gt;"/>
+		<item key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Proyecto&quot;&gt;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0A;&lt;xmlDefinedFilters&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;bndtools.jareditor.tempfiles.packageexplorer.filter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.DeprecatedMembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0A;&lt;/customFilters&gt;&#x0A;&lt;/packageExplorer&gt;"/>
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
@@ -67,9 +67,10 @@
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="/home/miguel/WorkSpace/C:\Users\mivel\eclipse-workspace.xml"/>
 		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="1"/>
-		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="Esclavo (1) - Práctica Obligatoria Multiproceso"/>
-		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="Práctica Obligatoria Multiproceso/src/psp/unidad1/Untitled.jar"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="ValidacionesApp - GestionEntradaSalida"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="/home/miguel/Examen/ValidarArchivoApp.jar"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/home/miguel/Examen/ValidarArchivoApp.jar"/>
 			<item value="Práctica Obligatoria Multiproceso/src/psp/unidad1/Untitled.jar"/>
 			<item value="C:\Users\mivel\OneDrive\Documents\JAR\Swing.jar"/>
 			<item value="C:\Users\mivel\OneDrive\Documents\JAR\mainn.jar"/>
@@ -80,23 +81,24 @@
 			<item value="C:\Users\mivel\OneDrive\Escritorio\examen03\SuperEstadísticaApp.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="/home/miguel/WorkSpace/C:\Users\mivel\eclipse-workspace.xml"/>
 			<item value="C:\Users\mivel\eclipse-workspace.xml"/>
 			<item value=".xml"/>
 		</list>
 		<section name="FatJarPackageWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="330"/>
-			<item key="DIALOG_Y_ORIGIN" value="3"/>
-			<item key="DIALOG_WIDTH" value="648"/>
-			<item key="DIALOG_HEIGHT" value="550"/>
+			<item key="DIALOG_Y_ORIGIN" value="9"/>
+			<item key="DIALOG_WIDTH" value="525"/>
+			<item key="DIALOG_HEIGHT" value="544"/>
 			<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
 		</section>
 	</section>
 	<section name="javadoc">
-		<item key="javadoc_command_history" value="C:\Program Files\Java\jdk-17\bin\javadoc.exe"/>
+		<item key="javadoc_command_history" value="/home/miguel/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.5.v20241023-1957/jre/bin/javadoc:C:\Program Files\Java\jdk-17\bin\javadoc.exe"/>
 		<item key="fromStandard" value="true"/>
 		<item key="docletname" value=""/>
 		<item key="docletpath" value=""/>
-		<item key="access" value="public"/>
+		<item key="access" value="private"/>
 		<item key="use" value="true"/>
 		<item key="author" value="true"/>
 		<item key="version" value="true"/>
@@ -108,144 +110,289 @@
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="false"/>
 		<item key="source" value="17"/>
-		<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Actividad6.11\javadoc.xml"/>
-		<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Actividad6.11\doc"/>
+		<item key="antpath" value="/home/miguel/WorkSpace/GestionEntradaSalida/javadoc.xml"/>
+		<item key="destdir" value="/home/miguel/WorkSpace/GestionEntradaSalida/doc"/>
 		<item key="doctitle" value="Libreria"/>
 		<section name="projects">
-			<section name="Actividad4.03a">
+			<section name="Tarea2">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Actividad4.03a\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Actividad4.03a\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Tarea2/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Tarea2/javadoc.xml"/>
 			</section>
-			<section name="Actividad6.11">
+			<section name="Tarea1">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Actividad6.11\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Actividad6.11\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Tarea1/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Tarea1/javadoc.xml"/>
 			</section>
-			<section name="Listas">
+			<section name="Examen Unidad 2 – Criptografía">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Listas\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Listas\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Examen Unidad 2 – Criptografía/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Examen Unidad 2 – Criptografía/javadoc.xml"/>
 			</section>
-			<section name="Actividad_4.03">
+			<section name="CreacionHash">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Actividad_4.03\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Actividad_4.03\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/CreacionHash/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/CreacionHash/javadoc.xml"/>
 			</section>
-			<section name="pruebas">
+			<section name="Tarea6">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\pruebas\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\pruebas\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Tarea6/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Tarea6/javadoc.xml"/>
 			</section>
-			<section name="Selenium">
+			<section name="Tarea5">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Selenium\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Selenium\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Tarea5/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Tarea5/javadoc.xml"/>
 			</section>
-			<section name="selenium.wiki">
+			<section name="Tarea4">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\selenium.wiki\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\selenium.wiki\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Tarea4/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Tarea4/javadoc.xml"/>
 			</section>
-			<section name="prueba">
+			<section name="RecursosPrimerExamen">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\prueba\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\prueba\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/RecursosPrimerExamen/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/RecursosPrimerExamen/javadoc.xml"/>
 			</section>
-			<section name="ClasePersona">
+			<section name="COnexionJDBC">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\git\repository2\ClasePersona\doc"/>
-				<item key="antpath" value="C:\Users\mivel\git\repository2\ClasePersona\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/COnexionJDBC/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/COnexionJDBC/javadoc.xml"/>
 			</section>
-			<section name="B03ej7">
+			<section name="Examen">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\B03ej7\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\B03ej7\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Examen/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Examen/javadoc.xml"/>
 			</section>
-			<section name="Libreria">
+			<section name="Práctica Obligatoria Multiproceso">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Libreria\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Libreria\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Práctica Obligatoria Multiproceso/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Práctica Obligatoria Multiproceso/javadoc.xml"/>
 			</section>
 			<section name="ArrayObjeto">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\ArrayObjeto\doc"/>
 				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\ArrayObjeto\javadoc.xml"/>
 			</section>
-			<section name="actividad_4.02e">
+			<section name="Hbernaerelaciones">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\actividad_4.02e\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\actividad_4.02e\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Hbernaerelaciones/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Hbernaerelaciones/javadoc.xml"/>
 			</section>
-			<section name="6.04">
+			<section name="Practica_Refactorizacion">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\6.04\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\6.04\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Practica_Refactorizacion/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Practica_Refactorizacion/javadoc.xml"/>
 			</section>
-			<section name="Array2">
+			<section name="EvaluaciónInicial">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Array2\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Array2\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/EvaluaciónInicial/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/EvaluaciónInicial/javadoc.xml"/>
 			</section>
-			<section name="Ejemplo">
+			<section name="pruebaAPI">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Ejemplo\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Ejemplo\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/pruebaAPI/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/pruebaAPI/javadoc.xml"/>
 			</section>
-			<section name="Retos">
+			<section name="CompararInstagram">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Retos\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Retos\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/CompararInstagram/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/CompararInstagram/javadoc.xml"/>
 			</section>
-			<section name="Array1">
+			<section name="worldCRUB">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Array1\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Array1\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/worldCRUB/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/worldCRUB/javadoc.xml"/>
 			</section>
-			<section name="SuperBuscaMinas">
+			<section name="ExamenUD2">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\SuperBuscaMinas\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\SuperBuscaMinas\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/ExamenUD2/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/ExamenUD2/javadoc.xml"/>
 			</section>
-			<section name="Actividad_4.02d">
+			<section name="Ejercicio03validaciones">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Actividad_4.02d\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Actividad_4.02d\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Ejercicio03validaciones/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Ejercicio03validaciones/javadoc.xml"/>
 			</section>
-			<section name="Actividad_4.02b">
+			<section name="PruebaFX">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Actividad_4.02b\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Actividad_4.02b\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/PruebaFX/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/PruebaFX/javadoc.xml"/>
 			</section>
-			<section name="Actividad_4.02a">
+			<section name="Practica 2">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Actividad_4.02a\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Actividad_4.02a\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Practica 2/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Practica 2/javadoc.xml"/>
 			</section>
-			<section name="Principal">
+			<section name="BaseDeDatos">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Principal\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Principal\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/BaseDeDatos/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/BaseDeDatos/javadoc.xml"/>
 			</section>
-			<section name="Act4.05">
+			<section name="Espresiones_Regulares">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Act4.05\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Act4.05\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Espresiones_Regulares/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Espresiones_Regulares/javadoc.xml"/>
+			</section>
+			<section name="recordatorio">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/recordatorio/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/recordatorio/javadoc.xml"/>
+			</section>
+			<section name="server">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/server/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/server/javadoc.xml"/>
+			</section>
+			<section name="Bloque5.1">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Bloque5.1/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Bloque5.1/javadoc.xml"/>
 			</section>
 			<section name="CalculadoraTesting">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\CalculadoraTesting\doc"/>
 				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\CalculadoraTesting\javadoc.xml"/>
 			</section>
-			<section name="ExpresionesRegulares">
+			<section name="PracticasPrimoHilos">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\ExpresionesRegulares\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\ExpresionesRegulares\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/WorkSpace/PracticasPrimoHilos/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/PracticasPrimoHilos/javadoc.xml"/>
 			</section>
-			<section name="MiPrimeraVentana">
+			<section name="ProyectoGames">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\MiPrimeraVentana\doc"/>
-				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\MiPrimeraVentana\javadoc.xml"/>
+				<item key="destdir" value="/home/miguel/ProyectoJuego/ProyectoJuegos/doc"/>
+				<item key="antpath" value="/home/miguel/ProyectoJuego/ProyectoJuegos/javadoc.xml"/>
+			</section>
+			<section name="pasarElTiempo">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/pasarElTiempo/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/pasarElTiempo/javadoc.xml"/>
+			</section>
+			<section name="Listas">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Listas\doc"/>
+				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Listas\javadoc.xml"/>
+			</section>
+			<section name="PruebaFX2">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/PruebaFX2/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/PruebaFX2/javadoc.xml"/>
+			</section>
+			<section name="HBTarea1">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/HBTarea1/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/HBTarea1/javadoc.xml"/>
+			</section>
+			<section name="GestionEntradaSalida">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/GestionEntradaSalida/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/GestionEntradaSalida/javadoc.xml"/>
+			</section>
+			<section name="Actividad_1.7_Linux">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Actividad_1.7_Linux/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Actividad_1.7_Linux/javadoc.xml"/>
+			</section>
+			<section name="Ejercicio02Validaciones">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Ejercicio02Validaciones/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Ejercicio02Validaciones/javadoc.xml"/>
+			</section>
+			<section name="Tarea3JDBCSwing">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Tarea3JDBCSwing/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Tarea3JDBCSwing/javadoc.xml"/>
+			</section>
+			<section name="hibernate">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/hibernate/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/hibernate/javadoc.xml"/>
+			</section>
+			<section name="CompararInstagramVentana">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/CompararInstagramVentana/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/CompararInstagramVentana/javadoc.xml"/>
+			</section>
+			<section name="Ejercicio04Validaciones">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Ejercicio04Validaciones/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Ejercicio04Validaciones/javadoc.xml"/>
+			</section>
+			<section name="ProgramacionServicios">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/ProgramacionServicios/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/ProgramacionServicios/javadoc.xml"/>
+			</section>
+			<section name="Actividad_1.07">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Actividad_1.07/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Actividad_1.07/javadoc.xml"/>
+			</section>
+			<section name="Actividad_1.06">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Actividad_1.06/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Actividad_1.06/javadoc.xml"/>
+			</section>
+			<section name="Actividad_1.05">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Actividad_1.05/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Actividad_1.05/javadoc.xml"/>
+			</section>
+			<section name="InicioSwing">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/InicioSwing/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/InicioSwing/javadoc.xml"/>
+			</section>
+			<section name="Array2">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Array2\doc"/>
+				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Array2\javadoc.xml"/>
+			</section>
+			<section name="Array1">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Array1\doc"/>
+				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Array1\javadoc.xml"/>
+			</section>
+			<section name="actividad107">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/actividad107/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/actividad107/javadoc.xml"/>
+			</section>
+			<section name="LoginFX">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/LoginFX/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/LoginFX/javadoc.xml"/>
+			</section>
+			<section name="Principal">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\mivel\eclipse-workspace\Principal\doc"/>
+				<item key="antpath" value="C:\Users\mivel\eclipse-workspace\Principal\javadoc.xml"/>
+			</section>
+			<section name="ComparandoJDBC">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/ComparandoJDBC/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/ComparandoJDBC/javadoc.xml"/>
+			</section>
+			<section name="Actividad2.03">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Actividad2.03/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Actividad2.03/javadoc.xml"/>
+			</section>
+			<section name="hacking-etico">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/hacking-etico/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/hacking-etico/javadoc.xml"/>
+			</section>
+			<section name="Actividad2.04">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Actividad2.04/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Actividad2.04/javadoc.xml"/>
+			</section>
+			<section name="Actividad2.05">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/miguel/WorkSpace/Actividad2.05/doc"/>
+				<item key="antpath" value="/home/miguel/WorkSpace/Actividad2.05/javadoc.xml"/>
 			</section>
 		</section>
 	</section>
@@ -405,9 +552,9 @@
 	</section>
 	<section name="NewPackageCreationWizard.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="369"/>
-		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_Y_ORIGIN" value="9"/>
 		<item key="DIALOG_WIDTH" value="559"/>
-		<item key="DIALOG_HEIGHT" value="583"/>
+		<item key="DIALOG_HEIGHT" value="574"/>
 		<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
 	</section>
 	<section name="JavaProjectWizard.dialogBounds">
@@ -420,5 +567,17 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="updateSimilarElements" value="false"/>
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
+		<item key="updateTextualMatches" value="false"/>
+		<item key="updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
+	</section>
+	<section name="JavadocWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="330"/>
+		<item key="DIALOG_Y_ORIGIN" value="9"/>
+		<item key="DIALOG_WIDTH" value="548"/>
+		<item key="DIALOG_HEIGHT" value="695"/>
+		<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
 	</section>
 </section>

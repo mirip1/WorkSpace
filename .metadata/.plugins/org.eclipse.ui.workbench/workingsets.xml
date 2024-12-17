@@ -51,6 +51,7 @@
 <item elementID="=PracticasPrimoHilos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Ejercicio03validaciones" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Ejercicio04Validaciones" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=GestionEntradaSalida" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1733137789373_10" label="Proyecto" name="Proyecto">
 <item elementID="=ProyectoGames" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -62,7 +63,7 @@
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726571017512_6" label="Window Working Set" name="Aggregate for window 1726571017511"/>
 <mruList name="Proyecto"/>
 <mruList name="Nacho"/>
-<mruList name="Java Main Sources"/>
-<mruList name="Pedro"/>
 <mruList name="Enrique"/>
+<mruList name="Pedro"/>
+<mruList name="Java Main Sources"/>
 </workingSetManager>

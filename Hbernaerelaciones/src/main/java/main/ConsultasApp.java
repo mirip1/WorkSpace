@@ -16,10 +16,10 @@ public class ConsultasApp {
     Session sesion = HibernateUtil.getSession();
     sesion.getTransaction().begin();
 
-    Query<Localidad> queryLocalidad = sesion.createQuery("From localidad", Localidad.class);
-    List<Localidad> lista = queryLocalidad.list();
+    List<Localidad> queryLocalidad = sesion.createQuery("From localidad", Localidad.class).list();
 
-    lista.forEach(System.out::println);
+
+    queryLocalidad.forEach(System.out::println);
 
     System.out.println("----------------------------");
 
@@ -44,12 +44,12 @@ public class ConsultasApp {
     }
 
     System.out.println("----------------------------");
-
-    Query<Object[]> existenciasPorRestauranteQuery = sesion
-        .createQuery("SELECT r.nombre, COUNT(ex.codArticulo) FROM restaurante r "
-            + "JOIN existencias ex ON r.codRest = ex.restaurante " + "GROUP BY r.codRest", Object[].class);
-    List<Object[]> existenciasPorRestaurante = existenciasPorRestauranteQuery.list();
-    existenciasPorRestaurante.forEach(row -> System.out.println("Restaurante: " + row[0] + ", Artículos: " + row[1]));
+//
+//    Query<Object[]> existenciasPorRestauranteQuery = sesion
+//        .createQuery("SELECT r.nombre, COUNT(ex.codArticulo) FROM restaurante r "
+//            + "JOIN existencias ex ON r.codRest = ex.restaurante " + "GROUP BY r.codRest", Object[].class);
+//    List<Object[]> existenciasPorRestaurante = existenciasPorRestauranteQuery.list();
+//    existenciasPorRestaurante.forEach(row -> System.out.println("Restaurante: " + row[0] + ", Artículos: " + row[1]));
 
     sesion.getTransaction().commit();
 

@@ -102,6 +102,12 @@ public class Superusuario implements Serializable{
   public void setUser(String user) {
     this.user = Utils.crearUser(nombre, apellidos);
   }
+
+  @Override
+  public String toString() {
+    return "Superusuario [idUser=" + idUser + ", nombre=" + nombre + ", apellidos=" + apellidos + ", user=" + user
+        + "]";
+  }
   
   
   

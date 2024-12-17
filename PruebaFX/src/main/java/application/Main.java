@@ -18,6 +18,7 @@ public class Main extends Application {
 	  loader.setLocation(Main.class.getResource("/views/VentanaPrincipal.fxml"));
 	  
       Pane ventana = (Pane) loader.load();
+
       
       Scene escena = new Scene(ventana);
 //      escena.getStylesheets().add(STYLESHEET_CASPIAN)
