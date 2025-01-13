@@ -6,16 +6,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="menuOrdenar"/>
 		<list key="findhistory">
+			<item value="menuOrdenar"/>
+			<item value="21"/>
+			<item value="System"/>
+			<item value="z"/>
+			<item value="        &lt;mapping class=&quot;model.Etiqueta&quot;/&gt;"/>
+			<item value="prueba"/>
 			<item value="HiloPrimo"/>
 			<item value="Validation"/>
-			<item value="err"/>
-			<item value="Cliente"/>
-			<item value="cliente"/>
-			<item value="panel_1"/>
-			<item value="JsonExtractor"/>
-			<item value="archivoTexto"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Utils"/>

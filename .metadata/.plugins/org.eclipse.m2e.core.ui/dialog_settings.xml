@@ -109,6 +109,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/miguel/WorkSpace/hiobernateGames"/>
 			<item value="/home/miguel/ProyectoJuego/ProyectoJuegos"/>
 		</list>
 		<list key="projectNameTemplate">

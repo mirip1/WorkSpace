@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="hibernate.connection.password">yolo</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/games?sslMode=DISABLED&amp;serverTimezone=UTC</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.default_schema">world</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.hbm2ddl.auto">validate</property>
+
+
+
+		<mapping class="model.BibliotecaVideojuego" />
+		<mapping class="model.BibliotecaVideojuegoId" />
+		<mapping class="model.Comentario" />
+		<mapping class="model.Etiqueta" />
+		<mapping class="model.Genero" />
+		<mapping class="model.JuegoEtiqueta" />
+		<mapping class="model.JuegoFavorito" />
+		<mapping class="model.JuegoFavoritoId" />
+		<mapping class="model.JuegoGenero" />
+		<mapping class="model.JuegoGeneroId" />
+		<mapping class="model.JuegoPlataforma" />
+		<mapping class="model.JuegoPlataformaId" />
+		<mapping class="model.Plataforma" />
+		<mapping class="model.Usuario" />
+		<mapping class="model.UsuarioGeneroFavorito" />
+		<mapping class="model.VideoJuego" />
+		<!-- <mapping class="model.Matricula"/> -->
+	</session-factory>
+</hibernate-configuration>
