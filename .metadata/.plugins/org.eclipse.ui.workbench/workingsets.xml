@@ -53,10 +53,11 @@
 <item elementID="=Ejercicio03validaciones" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Ejercicio04Validaciones" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=GestionEntradaSalida" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Programación Sockets&#x0A;Actividad 3.01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1733137789373_10" label="Proyecto" name="Proyecto">
-<item elementID="=ProyectoGames" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=hiobernateGames" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=PruebaJavaFX" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1695123078434_2" label="Window Working Set" name="Aggregate for window 1695123078434"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1695125305713_3" label="Window Working Set" name="Aggregate for window 1695125305713"/>

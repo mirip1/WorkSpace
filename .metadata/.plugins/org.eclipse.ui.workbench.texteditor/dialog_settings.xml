@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="menuOrdenar"/>
 		<list key="findhistory">
+			<item value="Junit"/>
 			<item value="menuOrdenar"/>
 			<item value="21"/>
 			<item value="System"/>
@@ -15,7 +16,6 @@
 			<item value="        &lt;mapping class=&quot;model.Etiqueta&quot;/&gt;"/>
 			<item value="prueba"/>
 			<item value="HiloPrimo"/>
-			<item value="Validation"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Utils"/>
