@@ -6,6 +6,13 @@
 		<item key="NewTestCaseCreationWizardPage.USE_SETUPCLASS" value="true"/>
 		<item key="NewTestCaseCreationWizardPage.USE_TEARDOWNCLASS" value="false"/>
 		<item key="NewTestCaseCreationWizardPage.USE_CONSTRUCTOR" value="false"/>
+		<section name="NewTestCaseCreationWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="676"/>
+			<item key="DIALOG_Y_ORIGIN" value="61"/>
+			<item key="DIALOG_WIDTH" value="574"/>
+			<item key="DIALOG_HEIGHT" value="679"/>
+			<item key="DIALOG_FONT_NAME" value="1|Quicksand|10.0|0|GTK|1|"/>
+		</section>
 	</section>
 	<section name="org.eclipse.jdt.internal.junit.ui.CompareResultDialog">
 		<item key="DIALOG_X_ORIGIN" value="880"/>

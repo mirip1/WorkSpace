@@ -55,6 +55,8 @@
 <item elementID="=Ejercicio04Validaciones" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ProgramacionServicios" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Actividad2.05" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Programación Sockets Práctica 3.02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Autentificación" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1733137789373_10" label="Proyecto" name="Proyecto">
 <item elementID="=hiobernateGames" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -65,8 +67,8 @@
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1696507645546_4" label="Window Working Set" name="Aggregate for window 1696507645546"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1701073820843_5" label="Window Working Set" name="Aggregate for window 1701073820843"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1726571017512_6" label="Window Working Set" name="Aggregate for window 1726571017511"/>
-<mruList name="Proyecto"/>
 <mruList name="Pedro"/>
+<mruList name="Proyecto"/>
 <mruList name="Enrique"/>
 <mruList name="Nacho"/>
 <mruList name="Java Main Sources"/>

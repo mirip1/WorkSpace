@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="menuOrdenar"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="main"/>
 			<item value="Junit"/>
 			<item value="menuOrdenar"/>
 			<item value="21"/>
@@ -15,7 +16,6 @@
 			<item value="z"/>
 			<item value="        &lt;mapping class=&quot;model.Etiqueta&quot;/&gt;"/>
 			<item value="prueba"/>
-			<item value="HiloPrimo"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Utils"/>

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="views.BajaProductos"/>
-    <fullyQualifiedTypeName name="com.toedter.calendar.JCalendar"/>
-    <fullyQualifiedTypeName name="excepciones.FechaVaciaException"/>
-    <fullyQualifiedTypeName name="java.time.Year"/>
-    <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="utils.ManejoUsuario"/>
@@ -24,7 +18,6 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.awt.desktop.OpenURIEvent"/>
     <fullyQualifiedTypeName name="java.net.URLEncoder"/>
@@ -52,12 +45,19 @@
     <fullyQualifiedTypeName name="javafx.scene.layout.VBox"/>
     <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="dao.BibliotecaDaoImpl"/>
     <fullyQualifiedTypeName name="java.awt.TextField"/>
     <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="controllers.BibliotecaController"/>
-    <fullyQualifiedTypeName name="model.VideoJuego"/>
     <fullyQualifiedTypeName name="org.hibernate.Hibernate"/>
+    <fullyQualifiedTypeName name="aplicacion.DataStore"/>
+    <fullyQualifiedTypeName name="controllers.SceneSwitcher"/>
+    <fullyQualifiedTypeName name="javafx.scene.input.MouseEvent"/>
+    <fullyQualifiedTypeName name="dao.BibliotecaDaoImpl"/>
+    <fullyQualifiedTypeName name="model.VideoJuego"/>
     <fullyQualifiedTypeName name="dao.VideoJuegoDaoImpl"/>
+    <fullyQualifiedTypeName name="model.BibliotecaVideojuego"/>
+    <fullyQualifiedTypeName name="dao.UsuarioDaoImpl"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.security.InvalidKeyException"/>
 </qualifiedTypeNameHistroy>
